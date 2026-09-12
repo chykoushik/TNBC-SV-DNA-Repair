@@ -1,0 +1,9 @@
+{
+  "status": "estimated",
+  "seed": 20260909,
+  "iterations": 2000,
+  "valid_iterations": 2000,
+  "ci_low": 7.851989694073705,
+  "ci_high": 23.941988642988683,
+  "median_beta": 15.94269681426696
+}

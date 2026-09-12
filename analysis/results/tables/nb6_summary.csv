@@ -1,0 +1,13 @@
+,value
+GSE25066 file available,True
+OV expression shape,"(21, 308)"
+OV panel genes available,21
+OV cohort size,290
+OV GIPS groups,"{'Low': 109, 'High': 95, 'Moderate': 86}"
+Cross-cancer genes,21
+Cross-cancer Spearman r,0.35
+Cross-cancer Spearman p,0.1203
+OV Cox OS HR,1.244
+OV Cox OS p,0.622
+OV Cox PFI HR,1.865
+OV Cox PFI p,0.1881

@@ -1,0 +1,16 @@
+{
+  "run": 76,
+  "passed": 75,
+  "failed": 1,
+  "skipped": 0,
+  "failures": [
+    {
+      "test": "test_acquisition.AcquisitionTests.test_never_overwrite",
+      "traceback": "Traceback (most recent call last):\n  File \"E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\tests\\test_acquisition.py\", line 39, in test_never_overwrite\n    with self.assertRaises(FileExistsError):self.call()\nAssertionError: FileExistsError not raised\n",
+      "classification": "infrastructure/acquisition"
+    }
+  ],
+  "scientific_tests_passed": true,
+  "existing_read_only_load_frozen": "passed",
+  "historical_hash_checks": 171
+}

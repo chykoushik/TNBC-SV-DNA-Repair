@@ -1,0 +1,32 @@
+{
+  "input_stat": {
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM2_ESM.xlsx": {
+      "size": 64630,
+      "mtime_ns": 1788774167957634700
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM3_ESM.xlsx": {
+      "size": 39663,
+      "mtime_ns": 1788774171032572100
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_gene_expression.csv.gz": {
+      "size": 591676211,
+      "mtime_ns": 1788774634931563100
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_family.soft.gz": {
+      "size": 442723,
+      "mtime_ns": 1788774842135188300
+    }
+  },
+  "input_sha256": {
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM2_ESM.xlsx": "7dfaf2eb58763a31695e3a223df7ceee300700f4443ad2102ae0604376a03b9d",
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM3_ESM.xlsx": "02a812812b1ce3ba2034e332fff4492a094f04bb48728a7af73d2ff0ff7deff5",
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_gene_expression.csv.gz": "3c717baf7960e1f1477a72744a399a42fabba113c9e7ecb3d55997574d7e9732",
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_family.soft.gz": "11e5ecb7488b70e4702298839997987d986cffe2af39ffa977231f13b42420f3"
+  },
+  "gene_rows": 30865,
+  "mapped_expression_n": 225,
+  "null_loaded_gene_n": 1458,
+  "eligible_pool_n": 20035,
+  "expression_transform": "already log2(FPKM+0.1); identity used",
+  "supplement3_use": "Inspected; gene lists/DEG results, no additional patient-level covariates; excluded from predictor selection"
+}

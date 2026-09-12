@@ -1,0 +1,10 @@
+{
+  "command": "python -m unittest discover -s tests -p test_stage1*.py -v",
+  "exit_code": 0,
+  "test_count": 26,
+  "status": "passed",
+  "clinical_tnbc_n": 114,
+  "RNA_matched_n": 3,
+  "complete_predictor_n": 3,
+  "artifact_checks": "114 output rows; 3 matched full-score rows; all 13 comparison genes available; clinical cohort hash unchanged as verified by runner"
+}

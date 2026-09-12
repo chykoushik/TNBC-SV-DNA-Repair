@@ -1,0 +1,41 @@
+{
+  "primary_outcome": "HRD_total",
+  "primary_predictor": "candidate_mean_z",
+  "secondary_outcomes": [
+    "HRD_LOH",
+    "LST",
+    "TAI",
+    "aneuploidy",
+    "FGA",
+    "LOH_fraction",
+    "ploidy",
+    "WGD"
+  ],
+  "random_sets": 5000,
+  "permutations": 5000,
+  "bootstrap": 2000,
+  "seed": 20260907,
+  "proliferation_genes": [
+    "BIRC5",
+    "CCNB1",
+    "CDC20",
+    "NUF2",
+    "CEP55",
+    "NDC80",
+    "MKI67",
+    "PTTG1",
+    "RRM2",
+    "TYMS",
+    "UBE2C"
+  ],
+  "minimum_complete_n": 10,
+  "adjusted_minimum_patients_per_parameter": 10,
+  "vif_warning": 5,
+  "random_neighbors": 200,
+  "random_matching_features": [
+    "reference mean log2(TPM+1)",
+    "reference variance log2(TPM+1)"
+  ],
+  "outcome_dichotomization": false,
+  "signature_weights": "frozen equal weights; no optimization"
+}

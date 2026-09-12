@@ -1,0 +1,12 @@
+{
+  "stage2_tests": 12,
+  "stage2_status": "passed",
+  "full_suite_tests": 52,
+  "full_suite_passed": 51,
+  "full_suite_failures": [
+    "test_acquisition.test_never_overwrite: pre-existing downloader skips existing file instead of raising"
+  ],
+  "required_outputs_verified": 15,
+  "frozen_stage1_hashes_unchanged": true,
+  "figures": "Six PDF/PNG pairs; figures 1-5 explicitly unavailable; figure 6 estimated"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\HRDetect_probability_bootstrap_distribution.csv",
+    "bytes": 41210,
+    "sha256": "a3d730c08f3cb04b7aaebc5f484c8b79f5043b201722b0fa5d0c0854b59bd00d"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\HRDetect_probability_diagnostics.pdf",
+    "bytes": 25905,
+    "sha256": "fdbbe831f17cbdca424b80a0077d12a3e7d5a896bd2e43a13035121e67c4899d"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\HRDetect_probability_diagnostics.png",
+    "bytes": 294621,
+    "sha256": "3087e91aaca4dce6d61c8d2303413a87af4aee6fda8bacc6e97807f45f9b3799"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\HRDetect_probability_permutation_distribution.csv",
+    "bytes": 206266,
+    "sha256": "dfa15cd1907f782d6fa936e920716a81b36a20ad3fbd338fe3125d3b40a1527a"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\preparation_manifest.json",
+    "bytes": 2138,
+    "sha256": "5bcf82e1fbe6e33273241ca12c39c0535f27b500f8fa5476458588dec3fb0421"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_adjusted_results.csv",
+    "bytes": 8217,
+    "sha256": "20d1876ec94d5a84ca9fa4e0478f1b82d3fd128a9241281e8e4451217244ade9"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_analysis_cohort.csv",
+    "bytes": 185952,
+    "sha256": "3fa9c9c78bce92ba93bb883af3664e68e612e40587f8ac12bd613c3271a7fd9a"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_bootstrap_results.csv",
+    "bytes": 296,
+    "sha256": "4bab3304a787afa97cd26fc53b4df3c633a4cfaaf35efdd887ad2fc65e96e342"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_canonical_results.csv",
+    "bytes": 13635,
+    "sha256": "8bc940494aa4e2c3a91926a81fcd06063cc2103265b2e6ce006bc9f80a0de4e0"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_diagnostics.csv",
+    "bytes": 68577,
+    "sha256": "c9bfa9b4155a9407167547fce52cfb81a57622bcb8e1ecef88300cefad7c0509"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_expression_predictors.csv",
+    "bytes": 125731,
+    "sha256": "e9340a9d11ddcc5779af8829843b920f0659408b4020d72a838749840ed7320d"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_gene_moments.csv",
+    "bytes": 1778371,
+    "sha256": "bb561f034eace73759e0aab03ff403c9424d2855742cb685cb0305fe0a2b3508"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_gene_sensitivity.csv",
+    "bytes": 11399,
+    "sha256": "088d1ee5b9c800ca6ef079ae008ee984e94d291a72e5acaf1813afe672bfc789"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_leave_one_gene_out.csv",
+    "bytes": 9072,
+    "sha256": "07f575d00827c910fe8b12857074c4d2e8b377a21f3529f6a44036e754926b3b"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_mapping_audit.json",
+    "bytes": 3466,
+    "sha256": "f9d6a1ae16c091a754ebac125ea5cb985ffd60866824e8b7cbb885bbf4ae15fb"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_null_neighborhood_expression.tsv.gz",
+    "bytes": 2597209,
+    "sha256": "89fa3577a335dc246f840444335586c5cc4600522388b9e257fc0d7a54939969"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_null_neighborhoods.json",
+    "bytes": 102832,
+    "sha256": "6091a074bb89cca035e10959bc4a47fbbc5befd3c4220c6915c20edfcf9c7b2c"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_null_signature_results.csv",
+    "bytes": 1755618,
+    "sha256": "556342777fd7db8dbcc47d8a6e4d356f315d37da1df90fc4ee0c06c2938fbfe5"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_null_signature_summary.csv",
+    "bytes": 305,
+    "sha256": "d2878689d631acf44dfee8cb271aed94b7c4c6e3e5ba6490ba6b77271994a5f7"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_permutation_results.csv",
+    "bytes": 289,
+    "sha256": "fb10ccf7d8ee4bec73d5a4d9ed9e50e1b3a48cd49bc813aaa903215c3cb5137b"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_primary_results.csv",
+    "bytes": 1389,
+    "sha256": "2bdee14132a864510ca7012106adcad0a750b9c5da9697b903238e2d0486bca0"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_protocol.json",
+    "bytes": 1274,
+    "sha256": "1be9a91ef2b441744fde55ff9adb01714d110378b11c333beeddbf9b8bf97e55"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_required_gene_expression.tsv.gz",
+    "bytes": 72407,
+    "sha256": "5244d121ae1873f2feaa9ca2d422aa3078e6e23853da469df3c2f13fccaf2c8c"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_sample_mapping.csv",
+    "bytes": 32483,
+    "sha256": "9ffe4791d8706757817a2c4e490846e2c843d4a93289d5fc2e4981c82b3f7c88"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_secondary_results.csv",
+    "bytes": 2963,
+    "sha256": "7b0caef485877ec52aa675ef4704c0da2c31b3b35fc8f79efae553efb4a14b46"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scanb_standardization.json",
+    "bytes": 1059,
+    "sha256": "8abbf17614f936c3e2fb6864f39c0b942433623180d2c6f05cab0303e7c64196"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scarHRD_score_bootstrap_distribution.csv",
+    "bytes": 39322,
+    "sha256": "ff9c7edecae41962c6ce20fa45c51ff0034b2b0d55c6054f17d75ef279983f61"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scarHRD_score_diagnostics.pdf",
+    "bytes": 23973,
+    "sha256": "97c18868813eaa0d2ccef8ac9f2da4af7bc58b121f3ee6ca2802cd12e455b75a"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scarHRD_score_diagnostics.png",
+    "bytes": 299704,
+    "sha256": "7145e6d096e2dbf3ae44c0f0872066f2ba1fc203b2c034f1a978b51cc9474cdb"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\scarHRD_score_permutation_distribution.csv",
+    "bytes": 206439,
+    "sha256": "21450853393ae36408ddba46095811fc2b3098e802ae13dc8ab3f876d9f7726f"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\stage4_summary.json",
+    "bytes": 10656,
+    "sha256": "25b7e3c8417f64b749ca6b754f02d696f96756f510d576fd0786f4a90f60ce1e"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\outputs\\v2\\stage4\\stage4_validation.json",
+    "bytes": 1170,
+    "sha256": "37196c4c164410d144c81c9aa5bcec0cf6fa0e5dde38bdf14558dfd082294466"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\docs\\V2_METHODS_STAGE4.md",
+    "bytes": 18463,
+    "sha256": "ade8a7a5b8e5dd1b3759f0a788f9f29e630f577e7f05d73805dbd6e770cc1669"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\src\\stage4.py",
+    "bytes": 28281,
+    "sha256": "0ec638182d739afb27efd3bdf70c6564abe5fb7f826933bc16fe106ed296e548"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\src\\stage4_scanb.py",
+    "bytes": 14303,
+    "sha256": "b0fb1c376c31592ac9052893770fda5e5acbf77ea827de631e6319c9a5ccc8bb"
+  },
+  {
+    "path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\tests\\test_stage4.py",
+    "bytes": 4009,
+    "sha256": "285727ab135d7b655562abca4b7a0a0dc3cc4c4976c8e83ea7acdaa9e4648123"
+  }
+]

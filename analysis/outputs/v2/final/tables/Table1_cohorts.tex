@@ -1,0 +1,22 @@
+\begin{longtable}{lrrrllll}
+\toprule
+cohort & eligible\_N & expression\_or\_context\_N & primary\_analysis\_N & unit & endpoint & source\_output & source\_field \\
+\midrule
+\endfirsthead
+\toprule
+cohort & eligible\_N & expression\_or\_context\_N & primary\_analysis\_N & unit & endpoint & source\_output & source\_field \\
+\midrule
+\endhead
+\midrule
+\multicolumn{8}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+TCGA-BRCA & 114 & 113 & 103 & patients & HRD\_total & outputs/v2/stage2/stage2\_summary.json & clinical\_n;rna\_n;HRD\_overlap\_n \\
+SCAN-B & 235 & 225 & 225 & patients & HRDetect; scarHRD & outputs/v2/stage4/stage4\_summary.json & mapping.supplement\_n;mapping.uniquely\_mapped\_n \\
+METABRIC & 258 & 258 & 258 & patients & altered gene fraction; OS; RFS & outputs/v2/stage3/stage3\_summary.json & metabric.clinical\_tnbc\_n \\
+GSE25066 & 178 & 178 & 112 & patients & pCR (37 events); DRFS N=114 (37 events) & outputs/v2/stage3/gse25066\_results.csv & rows 0/1; stage3\_summary.gse25066.clinical\_tnbc\_n \\
+DepMap & 34 & 25 & 25 & curated TNBC models & CRISPR gene effect & outputs/v2/stage3/depmap\_summary.json & tnbc\_model\_n;analysis\_model\_n \\
+GSE176078 & 10 & 10 & 8 & TNBC donor/sample units & malignant vs pooled nonmalignant & outputs/v2/stage3/single\_cell\_summary.json & tnbc\_donor\_sample\_n;primary\_result.N \\
+\end{longtable}

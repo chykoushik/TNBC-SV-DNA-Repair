@@ -1,0 +1,24 @@
+{
+  "syntax": "passed",
+  "stage4_tests": {
+    "run": 8,
+    "passed": 8
+  },
+  "full_suite": {
+    "run": 72,
+    "passed": 71,
+    "failed": 1,
+    "failure": "test_acquisition.AcquisitionTests.test_never_overwrite",
+    "reason": "Existing downloader skips existing file; test expects FileExistsError. Downloader unchanged."
+  },
+  "input_sha256_unchanged": {
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM2_ESM.xlsx": true,
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\13058_2026_2325_MOESM3_ESM.xlsx": true,
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_gene_expression.csv.gz": true,
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\GSE96058_family.soft.gz": true
+  },
+  "frozen_previous_inputs_unchanged": true,
+  "stage4_run": "completed",
+  "artifact_shape_checks": "passed",
+  "diagnostic_figures": "visually reviewed"
+}

@@ -1,0 +1,26 @@
+{
+  "source_stat": {
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\dataset\\GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz": {
+      "size": 558829202,
+      "mtime_ns": 1779036028186149200
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\results\\sc_extracted\\Wu_etal_2021_BRCA_scRNASeq\\metadata.csv": {
+      "size": 11004185,
+      "mtime_ns": 1631228301000000000
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\results\\sc_extracted\\Wu_etal_2021_BRCA_scRNASeq\\count_matrix_barcodes.tsv": {
+      "size": 2531385,
+      "mtime_ns": 1622637724000000000
+    },
+    "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\results\\sc_extracted\\Wu_etal_2021_BRCA_scRNASeq\\count_matrix_genes.tsv": {
+      "size": 258239,
+      "mtime_ns": 1622637724000000000
+    }
+  },
+  "archive_sha256": "c64894a9d50ec8af645b97e3e2685bde9389da24ef0004e9f66f9114c6474f57",
+  "nnz": 177994136,
+  "cells": 100064,
+  "donor_sample_units": 26,
+  "grouping": "Exact orig.ident units; suffixes retained; barcode prefix checked",
+  "archive_member": "Wu_etal_2021_BRCA_scRNASeq/count_matrix_sparse.mtx"
+}

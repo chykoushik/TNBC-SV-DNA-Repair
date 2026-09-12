@@ -1,0 +1,475 @@
+{
+  "source_probes.json": {
+    "TCGA_mastercalls.abs_segtabs.fixed.txt": {
+      "url": "https://api.gdc.cancer.gov/data/0f4f5701-7b61-41ae-bda9-2805d1ca9781",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:21 GMT",
+        "Server": "Apache",
+        "Content-Length": "253061161",
+        "Content-MD5": "585c8793730f294d7bf0144566bb37fa",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=TCGA_mastercalls.abs_segtabs.fixed.txt",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "TCGA_mastercalls.abs_tables_JSedit.fixed.txt": {
+      "url": "https://api.gdc.cancer.gov/data/4f277128-f793-4354-a13d-30cc7fe9f6b5",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:22 GMT",
+        "Server": "Apache",
+        "Content-Length": "901812",
+        "Content-MD5": "8ea2ca92c8ae58350538999dfa1174da",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=TCGA_mastercalls.abs_tables_JSedit.fixed.txt",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "seg_based_scores.tsv": {
+      "url": "https://api.gdc.cancer.gov/data/cbfe6a9d-c3be-4982-86c7-c476dc17ca10",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:23 GMT",
+        "Server": "Apache",
+        "Content-Length": "454662",
+        "Content-MD5": "24ad6e2c29beb206ca068828ec99da74",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=seg_based_scores.tsv",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "ABSOLUTE_scores.tsv": {
+      "url": "https://api.gdc.cancer.gov/data/0e8831f4-dd7e-4673-8624-b4519c2e0d65",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:24 GMT",
+        "Server": "Apache",
+        "Content-Length": "456006",
+        "Content-MD5": "bef23328ca806e81f3591973319e3605",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=ABSOLUTE_scores.tsv",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "TCGA.HRD_withSampleID.txt": {
+      "url": "https://api.gdc.cancer.gov/data/66dd07d7-6366-4774-83c3-5ad1e22b177e",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:25 GMT",
+        "Server": "Apache",
+        "Content-Length": "280336",
+        "Content-MD5": "9eed948082cc88d2b26d2f5a1bf2d2d2",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=TCGA.HRD_withSampleID.txt",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "TCGA_DDR_Data_Resources.zip": {
+      "url": "https://api.gdc.cancer.gov/data/d9fdd899-bffe-4325-b0ce-58cbf9924c0a",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:06:26 GMT",
+        "Server": "Apache",
+        "Content-Length": "1021299",
+        "Content-MD5": "d7015327d0d6dc084af11a0c9923da97",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=TCGA_DDR_Data_Resources.zip",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    }
+  },
+  "final_metadata.json": {
+    "CRISPRGeneEffect.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51064667/CRISPRGeneEffect.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=be14bdf1dc2d495061a00109f23e79e219b3bfc85b0be3e2ac5a20b6328cccbb",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "8KzAYoT1MuYilcB6rfLi5BmOG43ZbAn/K8Sqofk5geK49zyIRAp5woPYACJT/uzna8Ezc97eX6sFZ9kRZAGAYa6ssczutzKJ",
+        "x-amz-request-id": "QJRE2F5XY33FDDA8",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:15:02 GMT",
+        "ETag": "\"6edf7ade09b9b34199210b559d4745d3\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"CRISPRGeneEffect.csv\"",
+        "x-amz-version-id": "EZk3x6bB75PT5_oXo5163TufPnYJ43VV",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "428678699",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "Model.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51065297/Model.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=ad940fb1405205750f839e74e95b3005c81fd63077694ba159cb5acb62f0eb94",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "QVyf9XC18gwwiswq2D9ae132ZKvnBEg/OYV/qj0nvErVJrgI4qWBNNIfTJnm2sUNCbAd8PcbjE7mnrr45ndKmKAO76h+UjH7",
+        "x-amz-request-id": "QJR9GNXH0VZNVXJB",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:19:52 GMT",
+        "ETag": "\"675210d17675f3517b0ce39a3c274f16\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"Model.csv\"",
+        "x-amz-version-id": "dkUlwa4BxWCIHWvPkOOpLRqxCLRaXOaH",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "645696",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "ModelCondition.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51065300/ModelCondition.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=e909108b6005bf43c64353d1c343f29bce416cf8bac5ee7bb91521e10535af35",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "ZVCEMoeD16dsI/BuM6KEGb6SKAUSJdEvmC023B+Tk2AwsKt3TUliZcua+EsxmiIx+YdyDJK/kB69/ExhEsg7Rg0Mstum0M8v",
+        "x-amz-request-id": "QJRECKRQHS1JC0A7",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:19:55 GMT",
+        "ETag": "\"1f6033eb5b7a843b20cebe5ab63d3feb\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"ModelCondition.csv\"",
+        "x-amz-version-id": "vGgAw4K69mvBPfWEo3C27VIB7d_30Kfc",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "219100",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "OmicsDefaultModelProfiles.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51065339/OmicsDefaultModelProfiles.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1efca903cb5575e6dd1cdabf7b0ff0eeeaaa260a4065a95b2f3df29635897b1f",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "wHdnL6esE9uT7lOtaSCylM8MkWFhcjdOwlySZ44R6V5QAKxLCIVGgVwzsYhqIrDROoD6hdvQvECa+lJkRxJxCP7ro7zJRRBQ",
+        "x-amz-request-id": "QJRDKEF4G4SM4PAW",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:22:30 GMT",
+        "ETag": "\"4d342a03701c0a4c0742fedb56c1de40\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"OmicsDefaultModelProfiles.csv\"",
+        "x-amz-version-id": "M04YlO18AEfeun4dSc159haFl4Y4MXEI",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "90080",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "OmicsExpressionProteinCodingGenesTPMLogp1.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51065489/OmicsExpressionProteinCodingGenesTPMLogp1.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=5c048f69f3b9e4a6d99497e912c0ac406bf57a0e126fb410cec817965caed0b5",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "PLTBzkJziKxx5r5p4nZH126YY0E4P7uvTXYSaP/hNGJo0N4j2qxYAmCg1BT3FfzpdswFCCcm+BR/FcDL2NWNTX0AcX1GIC1J",
+        "x-amz-request-id": "QJR3PEFW0ZRCTD9T",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:32:53 GMT",
+        "ETag": "\"71794802b750ce77c422dad0720a40af\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"OmicsExpressionProteinCodingGenesTPMLogp1.csv\"",
+        "x-amz-version-id": "cdSrNm5ime4bTtSMh6OtBMD4BVDkA_h4",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "506628654",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "OmicsProfiles.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pstorage-plus-7003492043/51065723/OmicsProfiles.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WLN3GODUZ/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=399af67ef50ea2cbb997edcf232b4322111667686965e872893e68f0fa4bee1b",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "oP8slQUvTPZoTUGk2LTsRUscvEGOnwaSd0MTstwXoFDlTeC+O30ANQbaFPAgZYrl3jQHkyGtUI6HFBPGUbj/CYl5rse8FzaP",
+        "x-amz-request-id": "QJR0JDCT383Y2269",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Mon, 09 Dec 2024 17:49:53 GMT",
+        "ETag": "\"7195088a5fc41eddb3f896c6e984a992\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"OmicsProfiles.csv\"",
+        "x-amz-version-id": "ws0nnl_Wxui0FuV1GwaDamrEUdM.ouXP",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "254733",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "secondary-screen-dose-response-curve-parameters.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/20237739/secondaryscreendoseresponsecurveparameters.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=8d9c13f76b7e8350603ef127e3ce3b26a0b9ef35be1bc16ef8cb4373f715fc9b",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "VsH1WL2LiIaI1mBO018n1dWwEiuRGCLvJ3h25UM6KkTZP5hLKsVUvxlpD3F4+45X92gdLO3UO39AI7miRmnUR0TyJP1g61BO",
+        "x-amz-request-id": "QJRB4WDZEN6599AN",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Sat, 17 Apr 2021 16:28:57 GMT",
+        "ETag": "\"e629b9d505ad3d6bf65fde96f1c54bee\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"secondary-screen-dose-response-curve-parameters.csv\"",
+        "x-amz-version-id": "HWoxiThlvrQTQBVsCiJz0UX39ti7_PDM",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "264340589",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "secondary-screen-replicate-treatment-info.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/20237760/secondaryscreenreplicatetreatmentinfo.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=2654b1ec4221a8e535b6676cab72c5c2d761142ab36c4b3276f98caf6003147a",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "znpKkSepozrn+dLwYh3WnYfCxBqvSzRH0bZQv5/VXsBMM8xMNckZSXzB/t25cDFOpMymJDjVwHkvleq0pcnWBhOua84X6WYk",
+        "x-amz-request-id": "QJR719RTVQ1N1MG5",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Sat, 17 Apr 2021 16:29:04 GMT",
+        "ETag": "\"bd7bd6f2ab7b99abf1f2d4167f40e43a\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-storage-class": "INTELLIGENT_TIERING",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"secondary-screen-replicate-treatment-info.csv\"",
+        "x-amz-version-id": "0m501Difu.y7JLY04wXPmz19NwYCUCD_",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "15690740",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "secondary-screen-cell-line-info.csv": {
+      "url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/20237769/secondaryscreencelllineinfo.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20260907/eu-west-1/s3/aws4_request&X-Amz-Date=20260907T040749Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=33e8bedad7ec04f92a6ca20c14d98a08b13b97b7af4be7a4a3146468e6adbeb9",
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "+mEGe7k8z4c6EXw2UcjXCdA/R185Z+Aq4PwJjwQ6LpYAuYsNw4a5b82PID2lhkQXAcg5lPE3eTW4QnaCDGYGJEMsH0suQ2v2",
+        "x-amz-request-id": "QJRBN2PAWXCYDFFZ",
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "Last-Modified": "Sat, 17 Apr 2021 16:29:05 GMT",
+        "ETag": "\"6737b4aa9fd85404fd2f0cf825b037e4\"",
+        "x-amz-tagging-count": "1",
+        "x-amz-server-side-encryption": "AES256",
+        "Content-Disposition": "attachment; filename=\"secondary-screen-cell-line-info.csv\"",
+        "x-amz-version-id": "iQfV.NZhCGAVET7I2FwqdKWdTDXM7t2o",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "text/csv",
+        "Content-Length": "40979",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    "EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv": {
+      "url": "https://api.gdc.cancer.gov/data/3586c0da-64d0-4b74-a449-5ff4d9136611",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Server": "Apache",
+        "Content-Length": "1882540959",
+        "Content-MD5": "02e72c33071307ff6570621480d3c90b",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "TCGA-CDR-SupplementalTableS1.xlsx": {
+      "url": "https://api.gdc.cancer.gov/data/1b5f413e-a8d1-4d10-92eb-7c4ae739ed81",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Server": "Apache",
+        "Content-Length": "2945129",
+        "Content-MD5": "a4591b2dcee39591f59e5e25a6ce75fa",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=TCGA-CDR-SupplementalTableS1.xlsx",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "clinical_PANCAN_patient_with_followup.tsv": {
+      "url": "https://api.gdc.cancer.gov/data/0fc78496-818b-4896-bd83-52db1f533c5c",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Server": "Apache",
+        "Content-Length": "18633685",
+        "Content-MD5": "ffcb35edda305dd8d615497f9214eb92",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=clinical_PANCAN_patient_with_followup.tsv",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "merged_sample_quality_annotations.tsv": {
+      "url": "https://api.gdc.cancer.gov/data/1a7d7be8-675d-4e60-a105-19d4121bdebf",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Server": "Apache",
+        "Content-Length": "8463670",
+        "Content-MD5": "05ddd2270fb1fb24fbdc2fe9bf7384e5",
+        "Accept-Ranges": "bytes",
+        "Content-Disposition": "attachment; filename=merged_sample_quality_annotations.tsv",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/octet-stream",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload"
+      }
+    },
+    "GPL96.annot.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Mon, 22 Aug 2016 22:10:50 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "4522748",
+        "Cache-Control": "public, max-age=86400",
+        "Expires": "Mon, 14 Sep 2026 04:07:50 GMT",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+        "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+        "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      }
+    },
+    "GDSC2_fitted_dose_response_24Jul22.csv": {
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC2_fitted_dose_response_24Jul22.csv",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "39834719",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "Last-Modified": "Tue, 26 Jul 2022 11:03:48 GMT",
+        "Accept-Ranges": "bytes",
+        "set-cookie": "__cf_bm=yl_dLvxDST28z6zxovgFTZwi.KpzCHxuVyL6P_x2NB4-1788754070.2256844-1.0.1.1-7bPQWyz1mhLtj65mIEgdWbL3adc7WraUDu682u7oEWxEF1QkQZw2myw7G_Dylmk4Do3OwCRaL9k3zZr8YgJlAE5Koi8W_QcQLPoADWAIveQAxeGRmHR..VKptHcfxdcl; HttpOnly; SameSite=None; Secure; Path=/; Domain=ftp.sanger.ac.uk; Expires=Mon, 07 Sep 2026 04:37:50 GMT",
+        "Access-Control-Allow-Headers": "Range",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, no-store",
+        "cf-cache-status": "DYNAMIC",
+        "CF-RAY": "a372d94aef3891db-FRA"
+      }
+    },
+    "Cell_Lines_Details.xlsx": {
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "Content-Length": "117316",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "Last-Modified": "Tue, 26 Jul 2022 10:39:06 GMT",
+        "Accept-Ranges": "bytes",
+        "set-cookie": "__cf_bm=rTsic0JbWrPPAi7mEz5WWBMfT1P.mxj0rLcSyNmF20U-1788754070.4454582-1.0.1.1-OjR_LAykNzYlU812gVXWEKyaQ55fdh.ZkN8ymZuvVUb74pTW62smMb9XMbuE2aaKy2rHvBqNDuV8TCsKByqCLWKAOjYKziy34t133sot2tGA0.sWtqJP1OzW5CGw0_pL; HttpOnly; SameSite=None; Secure; Path=/; Domain=ftp.sanger.ac.uk; Expires=Mon, 07 Sep 2026 04:37:50 GMT",
+        "Access-Control-Allow-Headers": "Range",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, no-store",
+        "cf-cache-status": "DYNAMIC",
+        "CF-RAY": "a372d94c4d0bbbd9-FRA"
+      }
+    },
+    "screened_compounds_rel_8.4.csv": {
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/screened_compounds_rel_8.4.csv",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:50 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "46414",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "Last-Modified": "Tue, 26 Jul 2022 11:05:45 GMT",
+        "Accept-Ranges": "bytes",
+        "set-cookie": "__cf_bm=LHIVHgJawqubN74qyBuV9_9NE3KIvusIWPGYpGqf00A-1788754070.6506743-1.0.1.1-FGcdF0.gXEVMYojMEzny9dEoyP9T0MC_O_ZBGCT0VxwOrRWNJcLHEZv6SVgbjKGR4FlRLwVTNnegTwrDGAgRLn60maaJ1B5tg5ZPUcmOfJml0BdfOfu_bWR6BuEZ7ALC; HttpOnly; SameSite=None; Secure; Path=/; Domain=ftp.sanger.ac.uk; Expires=Mon, 07 Sep 2026 04:37:50 GMT",
+        "Access-Control-Allow-Headers": "Range",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, no-store",
+        "cf-cache-status": "DYNAMIC",
+        "CF-RAY": "a372d94d8de1373d-FRA"
+      }
+    },
+    "GDC_status": {
+      "url": "https://api.gdc.cancer.gov/status",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 07 Sep 2026 04:07:51 GMT",
+        "Server": "Apache",
+        "Content-Length": "221",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "Content-Disposition",
+        "Connection": "close",
+        "Content-Type": "application/json",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=63072001; includeSubdomains; preload",
+        "Vary": "Accept-Encoding"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+test_candidates_are_predictors_only (test_stage1.Stage1Tests) ... ok
+test_cannot_write_frozen_source (test_stage1.Stage1Tests) ... ok
+test_constant_gene_is_unscorable (test_stage1.Stage1Tests) ... ok
+test_deterministic_ids_and_duplicates (test_stage1.Stage1Tests) ... ok
+test_discordant_patient_excluded (test_stage1.Stage1Tests) ... ok
+test_exon_loader_rejected (test_stage1.Stage1Tests) ... ok
+test_expression_cannot_select_tnbc (test_stage1.Stage1Tests) ... ok
+test_incomplete_signature_is_not_zero (test_stage1.Stage1Tests) ... ok
+test_ish_conflict_and_no_automatic_rescue (test_stage1.Stage1Tests) ... ok
+test_matching_unique_and_ambiguous (test_stage1.Stage1Tests) ... ok
+test_no_retired_framework_in_executable_source (test_stage1.Stage1Tests) ... ok
+test_plain_gz_and_gene_loader (test_stage1.Stage1Tests) ... ok
+test_predictor_math_and_frozen_reference (test_stage1.Stage1Tests) ... ok
+test_primary_only (test_stage1.Stage1Tests) ... ok
+test_unknown_equivocal_are_not_negative (test_stage1.Stage1Tests) ... ok
+test_augmented_tpm_not_stranded_counts (test_stage1_star.StarTests) ... ok
+test_continuation_does_not_rebuild_clinical (test_stage1_star.StarTests) ... ok
+test_duplicate_choice_is_order_independent (test_stage1_star.StarTests) ... ok
+test_duplicate_ensembl_rejected (test_stage1_star.StarTests) ... ok
+test_full_aliquot_preserved (test_stage1_star.StarTests) ... ok
+test_match_restricted_to_clinical_sample (test_stage1_star.StarTests) ... ok
+test_missing_field_rejected (test_stage1_star.StarTests) ... ok
+test_multiple_sample_metadata_rejected (test_stage1_star.StarTests) ... ok
+test_negative_or_nan_tpm_rejected (test_stage1_star.StarTests) ... ok
+test_nonprimary_and_wrong_vial_rejected (test_stage1_star.StarTests) ... ok
+test_only_discovery_reference_used (test_stage1_star.StarTests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.071s
+
+OK

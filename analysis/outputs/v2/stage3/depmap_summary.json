@@ -1,0 +1,56 @@
+{
+  "status": "estimated",
+  "analysis_cohort": "curated_TNBC",
+  "breast_model_n": 102,
+  "tnbc_model_n": 34,
+  "analysis_model_n": 25,
+  "metadata_fields_used_for_curated_eligibility": [
+    "OncotreeLineage",
+    "OncotreePrimaryDisease",
+    "OncotreeSubtype",
+    "PatientSubtypeFeatures",
+    "ModelSubtypeFeatures",
+    "PublicComments",
+    "TissueOrigin",
+    "CellLineName",
+    "CCLEName"
+  ],
+  "tnbc_definition": "literal TNBC/triple-negative annotation in curated non-expression model metadata only",
+  "expression_receptor_thresholds_used": false,
+  "candidate_genes_available": [
+    "HORMAD1",
+    "HORMAD2",
+    "STAG3",
+    "REC8",
+    "SMC1B",
+    "SYCP2",
+    "SYCP3",
+    "MSH4",
+    "MSH5"
+  ],
+  "candidate_genes_missing": [],
+  "proliferation_genes_available": [
+    "MKI67",
+    "PCNA",
+    "CCNB1",
+    "CCNE1",
+    "MCM2",
+    "MCM4",
+    "MCM6",
+    "TOP2A",
+    "BIRC5",
+    "CDC20",
+    "CDC6"
+  ],
+  "FDR_significant_dependencies": 0,
+  "strongest_dependency": {
+    "gene": "PIERCE1",
+    "beta": -0.1867962579908555,
+    "p": 2.044012209707143e-05,
+    "fdr": 0.36620522749113177,
+    "annotation": ""
+  },
+  "DDR_FDR_significant_dependencies": [],
+  "effect_direction": "negative beta means stronger CRISPR dependency with higher candidate signature",
+  "matched_random_signature_control": "not run in this implementation; genome-wide FDR screen retained as the prespecified functional test"
+}

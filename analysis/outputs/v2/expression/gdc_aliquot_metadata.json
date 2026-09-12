@@ -1,0 +1,128 @@
+{
+  "e173c170-b7c6-4aa9-9f34-33cd02702d75": {
+    "data": {
+      "cases": [
+        {
+          "submitter_id": "TCGA-AO-A128",
+          "samples": [
+            {
+              "submitter_id": "TCGA-AO-A128-01A",
+              "sample_type": "Primary Tumor",
+              "portions": [
+                {
+                  "analytes": [
+                    {
+                      "aliquots": [
+                        {
+                          "aliquot_quantity": 4.27,
+                          "amount": null,
+                          "aliquot_id": "4a93eaee-d821-4640-a441-255008aaf3b4",
+                          "source_center": "23",
+                          "analyte_type": null,
+                          "updated_datetime": "2022-04-28T16:47:55.893833-05:00",
+                          "submitter_id": "TCGA-AO-A128-01A-11R-A10J-07",
+                          "concentration": 0.16,
+                          "state": "released",
+                          "aliquot_volume": 26.7,
+                          "created_datetime": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "file_name": "8d3d544f-6d1a-4cdc-8091-490311487ebd.rna_seq.augmented_star_gene_counts.tsv",
+      "md5sum": "dd39679fe62a68cd1203655864986533",
+      "file_id": "e173c170-b7c6-4aa9-9f34-33cd02702d75"
+    },
+    "warnings": {}
+  },
+  "222b562a-3ef7-4e69-a60d-54aac5104102": {
+    "data": {
+      "cases": [
+        {
+          "submitter_id": "TCGA-A1-A0SP",
+          "samples": [
+            {
+              "submitter_id": "TCGA-A1-A0SP-01A",
+              "sample_type": "Primary Tumor",
+              "portions": [
+                {
+                  "analytes": [
+                    {
+                      "aliquots": [
+                        {
+                          "aliquot_quantity": 4.27,
+                          "amount": null,
+                          "aliquot_id": "f091d050-4847-4d4d-b94c-1efacecdef6b",
+                          "source_center": "23",
+                          "analyte_type": null,
+                          "updated_datetime": "2022-04-29T07:02:06.801553-05:00",
+                          "submitter_id": "TCGA-A1-A0SP-01A-11R-A084-07",
+                          "concentration": 0.16,
+                          "state": "released",
+                          "aliquot_volume": 26.7,
+                          "created_datetime": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "file_name": "e0527b4b-de23-4b9f-8871-13f64f6976cd.rna_seq.augmented_star_gene_counts.tsv",
+      "md5sum": "d4c737d27e18342109001a0e7981dcfe",
+      "file_id": "222b562a-3ef7-4e69-a60d-54aac5104102"
+    },
+    "warnings": {}
+  },
+  "0c068d5a-ccad-47a5-bfe0-0dc5f136d6aa": {
+    "data": {
+      "cases": [
+        {
+          "submitter_id": "TCGA-A2-A3XT",
+          "samples": [
+            {
+              "submitter_id": "TCGA-A2-A3XT-01A",
+              "sample_type": "Primary Tumor",
+              "portions": [
+                {
+                  "analytes": [
+                    {
+                      "aliquots": [
+                        {
+                          "aliquot_quantity": 2.08,
+                          "amount": null,
+                          "aliquot_id": "e0a10445-6266-4f41-a747-fb19d7182652",
+                          "source_center": "23",
+                          "analyte_type": null,
+                          "updated_datetime": "2022-04-29T02:13:31.966146-05:00",
+                          "submitter_id": "TCGA-A2-A3XT-01A-11R-A22U-07",
+                          "concentration": 0.16,
+                          "state": "released",
+                          "aliquot_volume": 13.0,
+                          "created_datetime": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "file_name": "bdba14fb-88aa-43b0-8c25-53948b9935b7.rna_seq.augmented_star_gene_counts.tsv",
+      "md5sum": "518eace9d4d12dc66d378770abbb0f00",
+      "file_id": "0c068d5a-ccad-47a5-bfe0-0dc5f136d6aa"
+    },
+    "warnings": {}
+  }
+}

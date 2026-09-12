@@ -1,0 +1,10 @@
+outcome,clinical_n,rna_predictor_n,outcome_n,overlap_n,status
+HRD_total,114,113,104,103,available
+HRD_LOH,114,113,104,103,available
+LST,114,113,104,103,available
+TAI,114,113,104,103,available
+aneuploidy,114,113,103,102,available
+FGA,114,113,109,108,available
+LOH_fraction,114,113,103,102,available
+ploidy,114,113,101,100,available
+WGD,114,113,101,100,available

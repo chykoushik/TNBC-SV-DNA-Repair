@@ -1,0 +1,7 @@
+cohort,eligible_N,expression_or_context_N,primary_analysis_N,unit,endpoint,source_output,source_field
+TCGA-BRCA,114,113,103,patients,HRD_total,outputs/v2/stage2/stage2_summary.json,clinical_n;rna_n;HRD_overlap_n
+SCAN-B,235,225,225,patients,HRDetect; scarHRD,outputs/v2/stage4/stage4_summary.json,mapping.supplement_n;mapping.uniquely_mapped_n
+METABRIC,258,258,258,patients,altered gene fraction; OS; RFS,outputs/v2/stage3/stage3_summary.json,metabric.clinical_tnbc_n
+GSE25066,178,178,112,patients,pCR (37 events); DRFS N=114 (37 events),outputs/v2/stage3/gse25066_results.csv,rows 0/1; stage3_summary.gse25066.clinical_tnbc_n
+DepMap,34,25,25,curated TNBC models,CRISPR gene effect,outputs/v2/stage3/depmap_summary.json,tnbc_model_n;analysis_model_n
+GSE176078,10,10,8,TNBC donor/sample units,malignant vs pooled nonmalignant,outputs/v2/stage3/single_cell_summary.json,tnbc_donor_sample_n;primary_result.N

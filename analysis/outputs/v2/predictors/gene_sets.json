@@ -1,0 +1,28 @@
+{
+  "candidate": [
+    "HORMAD1",
+    "HORMAD2",
+    "STAG3",
+    "REC8",
+    "SMC1B",
+    "SYCP2",
+    "SYCP3",
+    "MSH4",
+    "MSH5"
+  ],
+  "canonical_comparison": [
+    "BRCA1",
+    "BRCA2",
+    "PALB2",
+    "RAD51",
+    "RAD51B",
+    "RAD51C",
+    "RAD51D",
+    "BRIP1",
+    "ATM",
+    "CHEK2",
+    "STAG2",
+    "RAD21",
+    "SMC1A"
+  ]
+}

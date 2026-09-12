@@ -1,0 +1,9 @@
+{
+  "stage3_tests": 12,
+  "exit_code": 0,
+  "frozen_stage1_stage2_hashes_unchanged": true,
+  "required_outputs": 7,
+  "PDF_PNG_pairs": 6,
+  "single_cell_library_count_QC": "85 donor/class totals exactly equal source metadata; 714388253 counts",
+  "downloads": 0
+}

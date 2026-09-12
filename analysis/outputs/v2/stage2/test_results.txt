@@ -1,0 +1,98 @@
+{
+  "mode": "download",
+  "datasets": [
+    "tcga_rna",
+    "tcga_mutations",
+    "tcga_segments",
+    "tcga_hrd",
+    "tcga_aneuploidy",
+    "tcga_fga",
+    "tcga_absolute",
+    "tcga_absolute_segments",
+    "tcga_qc",
+    "depmap_effect",
+    "depmap_model",
+    "depmap_condition",
+    "depmap_profiles",
+    "depmap_default",
+    "depmap_expression",
+    "depmap_readme",
+    "prism_response",
+    "prism_treatment",
+    "prism_models",
+    "prism_readme",
+    "gpl96"
+  ],
+  "files": 4350,
+  "bytes": 6262945554
+}
+SKIP existing: C:\Users\Koush\AppData\Local\Temp\tmpx9d138zo\data\external\synthetic\data.csv
+test_bad_checksum (test_acquisition.AcquisitionTests) ... ok
+test_changed_validator (test_acquisition.AcquisitionTests) ... ok
+test_explicit_overwrite (test_acquisition.AcquisitionTests) ... ok
+test_html (test_acquisition.AcquisitionTests) ... ok
+test_large_gate_before_network (test_acquisition.AcquisitionTests) ... usage: download_public_data.py [-h] [--dataset DATASET] [--recommended]
+                               [--download] [--allow-large] [--resume]
+                               [--overwrite]
+download_public_data.py: error: Selected transfer totals >=1 GB; requires --allow-large. Nothing downloaded.
+ok
+test_never_overwrite (test_acquisition.AcquisitionTests) ... FAIL
+test_no_manifest (test_acquisition.AcquisitionTests) ... ok
+test_path_escape (test_acquisition.AcquisitionTests) ... ok
+test_resume (test_acquisition.AcquisitionTests) ... ok
+test_resume_ignored_preserves_partial (test_acquisition.AcquisitionTests) ... ok
+test_success_and_tampering (test_acquisition.AcquisitionTests) ... ok
+test_truncated (test_acquisition.AcquisitionTests) ... ok
+test_unknown_size (test_acquisition.AcquisitionTests) ... ok
+test_wrong_range (test_acquisition.AcquisitionTests) ... ok
+test_candidates_are_predictors_only (test_stage1.Stage1Tests) ... ok
+test_cannot_write_frozen_source (test_stage1.Stage1Tests) ... ok
+test_constant_gene_is_unscorable (test_stage1.Stage1Tests) ... ok
+test_deterministic_ids_and_duplicates (test_stage1.Stage1Tests) ... ok
+test_discordant_patient_excluded (test_stage1.Stage1Tests) ... ok
+test_exon_loader_rejected (test_stage1.Stage1Tests) ... ok
+test_expression_cannot_select_tnbc (test_stage1.Stage1Tests) ... ok
+test_incomplete_signature_is_not_zero (test_stage1.Stage1Tests) ... ok
+test_ish_conflict_and_no_automatic_rescue (test_stage1.Stage1Tests) ... ok
+test_matching_unique_and_ambiguous (test_stage1.Stage1Tests) ... ok
+test_no_retired_framework_in_executable_source (test_stage1.Stage1Tests) ... ok
+test_plain_gz_and_gene_loader (test_stage1.Stage1Tests) ... ok
+test_predictor_math_and_frozen_reference (test_stage1.Stage1Tests) ... ok
+test_primary_only (test_stage1.Stage1Tests) ... ok
+test_unknown_equivocal_are_not_negative (test_stage1.Stage1Tests) ... ok
+test_augmented_tpm_not_stranded_counts (test_stage1_star.StarTests) ... ok
+test_continuation_does_not_rebuild_clinical (test_stage1_star.StarTests) ... ok
+test_duplicate_choice_is_order_independent (test_stage1_star.StarTests) ... ok
+test_duplicate_ensembl_rejected (test_stage1_star.StarTests) ... ok
+test_full_aliquot_preserved (test_stage1_star.StarTests) ... ok
+test_match_restricted_to_clinical_sample (test_stage1_star.StarTests) ... ok
+test_missing_field_rejected (test_stage1_star.StarTests) ... ok
+test_multiple_sample_metadata_rejected (test_stage1_star.StarTests) ... ok
+test_negative_or_nan_tpm_rejected (test_stage1_star.StarTests) ... ok
+test_nonprimary_and_wrong_vial_rejected (test_stage1_star.StarTests) ... ok
+test_only_discovery_reference_used (test_stage1_star.StarTests) ... ok
+test_association_matches_primary_beta (test_stage2.Stage2Tests) ... ok
+test_bh_known_values_and_missing (test_stage2.Stage2Tests) ... ok
+test_bootstrap_deterministic (test_stage2.Stage2Tests) ... ok
+test_conflicting_outcome_duplicates_rejected (test_stage2.Stage2Tests) ... ok
+test_exact_patient_matching_no_row_order (test_stage2.Stage2Tests) ... ok
+test_insufficient_n_is_not_negative_result (test_stage2.Stage2Tests) ... ok
+test_leave_one_out_exact_eight_genes (test_stage2.Stage2Tests) ... ok
+test_no_candidates_in_proliferation (test_stage2.Stage2Tests) ... ok
+test_ols_and_hc3_against_matrix_algebra (test_stage2.Stage2Tests) ... ok
+test_outcomes_independent_of_predictor (test_stage2.Stage2Tests) ... ok
+test_permutation_preserves_labels_and_seed (test_stage2.Stage2Tests) ... ok
+test_random_sets_fixed_seed_no_forbidden_genes (test_stage2.Stage2Tests) ... ok
+
+======================================================================
+FAIL: test_never_overwrite (test_acquisition.AcquisitionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\tests\test_acquisition.py", line 39, in test_never_overwrite
+    with self.assertRaises(FileExistsError):self.call()
+AssertionError: FileExistsError not raised
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.274s
+
+FAILED (failures=1)

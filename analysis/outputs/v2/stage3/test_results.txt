@@ -1,0 +1,17 @@
+test_all_zero_paired_difference_is_negative_result (test_stage3.Stage3Tests) ... ok
+test_clinical_geo_not_expression_rescued (test_stage3.Stage3Tests) ... ok
+test_cox_known_direction (test_stage3.Stage3Tests) ... ok
+test_duplicate_probes_averaged_not_selected (test_stage3.Stage3Tests) ... ok
+test_evidence_uses_fdr_and_direction (test_stage3.Stage3Tests) ... ok
+test_missing_gene_is_not_zero_or_dropped (test_stage3.Stage3Tests) ... ok
+test_paired_unit_n_and_determinism (test_stage3.Stage3Tests) ... ok
+test_platform_570_never_substituted (test_stage3.Stage3Tests) ... ok
+test_same_nine_genes_equal_weight (test_stage3.Stage3Tests) ... ok
+test_sparse_bad_coordinate_rejected (test_stage3.Stage3Tests) ... ok
+test_sparse_pseudobulk_matches_dense_sum (test_stage3.Stage3Tests) ... ok
+test_unavailable_is_not_failed_replication (test_stage3.Stage3Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.070s
+
+OK

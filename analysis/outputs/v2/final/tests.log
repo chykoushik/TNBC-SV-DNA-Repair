@@ -1,0 +1,89 @@
+test_bad_checksum (test_acquisition.AcquisitionTests) ... ok
+test_changed_validator (test_acquisition.AcquisitionTests) ... ok
+test_explicit_overwrite (test_acquisition.AcquisitionTests) ... ok
+test_html (test_acquisition.AcquisitionTests) ... ok
+test_large_gate_before_network (test_acquisition.AcquisitionTests) ... ok
+test_never_overwrite (test_acquisition.AcquisitionTests) ... FAIL
+test_no_manifest (test_acquisition.AcquisitionTests) ... ok
+test_path_escape (test_acquisition.AcquisitionTests) ... ok
+test_resume (test_acquisition.AcquisitionTests) ... ok
+test_resume_ignored_preserves_partial (test_acquisition.AcquisitionTests) ... ok
+test_success_and_tampering (test_acquisition.AcquisitionTests) ... ok
+test_truncated (test_acquisition.AcquisitionTests) ... ok
+test_unknown_size (test_acquisition.AcquisitionTests) ... ok
+test_wrong_range (test_acquisition.AcquisitionTests) ... ok
+test_expected_scope (test_final_package.FinalPackageTests) ... ok
+test_frozen_signature (test_final_package.FinalPackageTests) ... ok
+test_missing_not_zero (test_final_package.FinalPackageTests) ... ok
+test_retired_field_recursive (test_final_package.FinalPackageTests) ... ok
+test_candidates_are_predictors_only (test_stage1.Stage1Tests) ... ok
+test_cannot_write_frozen_source (test_stage1.Stage1Tests) ... ok
+test_constant_gene_is_unscorable (test_stage1.Stage1Tests) ... ok
+test_deterministic_ids_and_duplicates (test_stage1.Stage1Tests) ... ok
+test_discordant_patient_excluded (test_stage1.Stage1Tests) ... ok
+test_exon_loader_rejected (test_stage1.Stage1Tests) ... ok
+test_expression_cannot_select_tnbc (test_stage1.Stage1Tests) ... ok
+test_incomplete_signature_is_not_zero (test_stage1.Stage1Tests) ... ok
+test_ish_conflict_and_no_automatic_rescue (test_stage1.Stage1Tests) ... ok
+test_matching_unique_and_ambiguous (test_stage1.Stage1Tests) ... ok
+test_no_retired_framework_in_executable_source (test_stage1.Stage1Tests) ... ok
+test_plain_gz_and_gene_loader (test_stage1.Stage1Tests) ... ok
+test_predictor_math_and_frozen_reference (test_stage1.Stage1Tests) ... ok
+test_primary_only (test_stage1.Stage1Tests) ... ok
+test_unknown_equivocal_are_not_negative (test_stage1.Stage1Tests) ... ok
+test_augmented_tpm_not_stranded_counts (test_stage1_star.StarTests) ... ok
+test_continuation_does_not_rebuild_clinical (test_stage1_star.StarTests) ... ok
+test_duplicate_choice_is_order_independent (test_stage1_star.StarTests) ... ok
+test_duplicate_ensembl_rejected (test_stage1_star.StarTests) ... ok
+test_full_aliquot_preserved (test_stage1_star.StarTests) ... ok
+test_match_restricted_to_clinical_sample (test_stage1_star.StarTests) ... ok
+test_missing_field_rejected (test_stage1_star.StarTests) ... ok
+test_multiple_sample_metadata_rejected (test_stage1_star.StarTests) ... ok
+test_negative_or_nan_tpm_rejected (test_stage1_star.StarTests) ... ok
+test_nonprimary_and_wrong_vial_rejected (test_stage1_star.StarTests) ... ok
+test_only_discovery_reference_used (test_stage1_star.StarTests) ... ok
+test_association_matches_primary_beta (test_stage2.Stage2Tests) ... ok
+test_bh_known_values_and_missing (test_stage2.Stage2Tests) ... ok
+test_bootstrap_deterministic (test_stage2.Stage2Tests) ... ok
+test_conflicting_outcome_duplicates_rejected (test_stage2.Stage2Tests) ... ok
+test_exact_patient_matching_no_row_order (test_stage2.Stage2Tests) ... ok
+test_insufficient_n_is_not_negative_result (test_stage2.Stage2Tests) ... ok
+test_leave_one_out_exact_eight_genes (test_stage2.Stage2Tests) ... ok
+test_no_candidates_in_proliferation (test_stage2.Stage2Tests) ... ok
+test_ols_and_hc3_against_matrix_algebra (test_stage2.Stage2Tests) ... ok
+test_outcomes_independent_of_predictor (test_stage2.Stage2Tests) ... ok
+test_permutation_preserves_labels_and_seed (test_stage2.Stage2Tests) ... ok
+test_random_sets_fixed_seed_no_forbidden_genes (test_stage2.Stage2Tests) ... ok
+test_all_zero_paired_difference_is_negative_result (test_stage3.Stage3Tests) ... ok
+test_clinical_geo_not_expression_rescued (test_stage3.Stage3Tests) ... ok
+test_cox_known_direction (test_stage3.Stage3Tests) ... ok
+test_duplicate_probes_averaged_not_selected (test_stage3.Stage3Tests) ... ok
+test_evidence_uses_fdr_and_direction (test_stage3.Stage3Tests) ... ok
+test_missing_gene_is_not_zero_or_dropped (test_stage3.Stage3Tests) ... ok
+test_paired_unit_n_and_determinism (test_stage3.Stage3Tests) ... ok
+test_platform_570_never_substituted (test_stage3.Stage3Tests) ... ok
+test_same_nine_genes_equal_weight (test_stage3.Stage3Tests) ... ok
+test_sparse_bad_coordinate_rejected (test_stage3.Stage3Tests) ... ok
+test_sparse_pseudobulk_matches_dense_sum (test_stage3.Stage3Tests) ... ok
+test_unavailable_is_not_failed_replication (test_stage3.Stage3Tests) ... ok
+test_ambiguity_rejected (test_stage4.Stage4Tests) ... ok
+test_duplicate_patient_rejected (test_stage4.Stage4Tests) ... ok
+test_fixed_seed_controls (test_stage4.Stage4Tests) ... ok
+test_frozen_genes_and_standardization (test_stage4.Stage4Tests) ... ok
+test_m_variants_not_rescued (test_stage4.Stage4Tests) ... ok
+test_mapping_k_normalization_and_determinism (test_stage4.Stage4Tests) ... ok
+test_outcomes_and_receptors_cannot_define_predictors_or_selection (test_stage4.Stage4Tests) ... ok
+test_retired_score_absent (test_stage4.Stage4Tests) ... ok
+
+======================================================================
+FAIL: test_never_overwrite (test_acquisition.AcquisitionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\tests\test_acquisition.py", line 39, in test_never_overwrite
+    with self.assertRaises(FileExistsError):self.call()
+AssertionError: FileExistsError not raised
+
+----------------------------------------------------------------------
+Ran 76 tests in 0.348s
+
+FAILED (failures=1)

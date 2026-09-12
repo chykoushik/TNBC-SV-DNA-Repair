@@ -1,0 +1,4 @@
+dataset_name,access_status,resource,action,required_for_core,public_alternative
+GDC TCGA-BRCA somatic SV calls,controlled,https://api.gdc.cancer.gov/files,Optional dbGaP authorization plus GDC token; never fetched by public downloader,no,"HRD scars, ABSOLUTE LOH/WGD, aneuploidy and FGA; these do not substitute for direct SV claims"
+TCGA/PCAWG aligned WGS/WES and germline calls,controlled depending on asset,https://gdc.cancer.gov/access-data/obtaining-access-controlled-data,Do not acquire for baseline; exact repository authorization needed for optional raw reanalysis,no,Open masked somatic MAF and published processed outcomes
+DepMap raw sequencing,dbGaP controlled; release documentation,https://forum.depmap.org/t/announcing-the-24q4-release/3564,Do not acquire raw reads,no,"Open processed 24Q4 expression, metadata and CRISPR matrices"

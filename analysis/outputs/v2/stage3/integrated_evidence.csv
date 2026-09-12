@@ -1,0 +1,191 @@
+gene,domain,endpoint,N,effect,effect_measure,ci_low,ci_high,p,fdr,support,note
+composite,TCGA_HRD,HRD_total,103.0,16.002834430972655,linear regression coefficient per predictor unit,8.317696168049016,23.68797269389629,7.465452030491402e-05,,supports,Frozen TCGA discovery; not external replication
+composite,TCGA_CIN,HRD_LOH,103.0,3.875274607359197,linear regression coefficient per predictor unit,1.4068927292466316,6.343656485471762,0.0023989301514027,0.0047978603028054,supports,Frozen TCGA result
+composite,TCGA_CIN,LST,103.0,6.107254443115797,linear regression coefficient per predictor unit,2.6848080545210853,9.529700831710509,0.0006068988849504,0.0024275955398019,supports,Frozen TCGA result
+composite,TCGA_CIN,TAI,103.0,6.020305380497664,linear regression coefficient per predictor unit,3.360551109489293,8.680059651506035,1.8941506965856187e-05,0.0001515320557268,supports,Frozen TCGA result
+composite,TCGA_CIN,aneuploidy,102.0,-2.1827728264434154,linear regression coefficient per predictor unit,-4.656437930543092,0.290892277656261,0.083070374132419,0.1107604988432253,does_not_support,Frozen TCGA result
+composite,TCGA_CIN,FGA,108.0,0.1446109088318806,linear regression coefficient per predictor unit,0.0580378318037374,0.2311839858600237,0.0012685853349993,0.0033828942266649,supports,Frozen TCGA result
+composite,TCGA_CIN,LOH_fraction,102.0,0.0763069126605255,linear regression coefficient per predictor unit,0.0135756907086233,0.1390381346124277,0.0176280631654778,0.0282049010647645,supports,Frozen TCGA result
+composite,TCGA_CIN,ploidy,100.0,-0.0526175171837651,linear regression coefficient per predictor unit,-0.3716010186066867,0.2663659842391565,0.7441049500956578,0.7441049500956578,does_not_support,Frozen TCGA result
+composite,TCGA_CIN,WGD,100.0,-0.1480756533696421,linear regression coefficient per predictor unit,-0.5509911749705715,0.2548398682312872,0.4713358781773118,0.538669575059785,does_not_support,Frozen TCGA result
+composite,METABRIC,altered_gene_fraction,258.0,0.11654864204074314,linear regression coefficient per predictor unit,0.050009408276861525,0.18308787580462477,0.0006570021754762334,0.0019710065264287,supports,Gene-weighted CNA proxy is not HRD scar
+composite,METABRIC,altered_gene_fraction_adjusted,258.0,0.041968029727289066,linear regression coefficient per predictor unit,-0.02064049125789362,0.10457655071247175,0.18798936415717554,,does_not_support,Gene-weighted CNA proxy is not HRD scar
+composite,METABRIC,OS,258.0,-0.017377826596715985,log hazard ratio per predictor SD,-0.19063160115358732,0.15587594796015533,0.8441486012883581,0.844148601288358,does_not_support,Gene-weighted CNA proxy is not HRD scar
+composite,METABRIC,RFS,258.0,-0.11725315546893984,log hazard ratio per predictor SD,-0.32033508221615553,0.08582877127827583,0.25779341646495046,0.3866901246974257,does_not_support,Gene-weighted CNA proxy is not HRD scar
+composite,METABRIC,HRD_scar,0.0,,linear regression coefficient per predictor unit,,,,,unavailable,No independent HRD scar table local
+composite,GSE25066,pCR,112.0,-0.014232178972276686,linear regression coefficient per predictor unit,-0.4077065374783254,0.37924217953377204,0.9434829539735161,0.9434829539735161,does_not_support,GPL96 mapping unavailable; no gene coverage inferred
+composite,GSE25066,DRFS,114.0,0.08600144609055174,log hazard ratio per predictor SD,-0.2535804861644436,0.42558337834554716,0.6196303682906579,0.9434829539735161,does_not_support,GPL96 mapping unavailable; no gene coverage inferred
+composite,single_cell,malignant_vs_nonmalignant_combined,8.0,0.016924906896976427,paired mean difference in program z-score,-0.2723578816974581,0.2542422561292419,0.546875,0.546875,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+composite,DepMap,genome_wide_CRISPR,25.0,-0.1867962579908555,strongest genome-wide CRISPR gene-effect beta; negative means stronger dependency,,,2.044012209707143e-05,0.36620522749113177,does_not_support,Genome-wide screen; strongest dependency=PIERCE1; cohort=curated_TNBC
+composite,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+HORMAD1,TCGA_HRD,HRD_total,103.0,7.119835749863233,linear regression coefficient per predictor unit,2.995679475317356,11.24399202440911,0.0008909124507087,0.0080182120563791,supports,Frozen TCGA discovery; not external replication
+HORMAD1,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD1,METABRIC,altered_gene_fraction,258.0,0.05039378323136956,linear regression coefficient per predictor unit,0.022185467887611006,0.07860209857512812,0.0005141810104710315,0.002313814547119642,supports,Gene-weighted CNA proxy is not HRD scar
+HORMAD1,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+HORMAD1,METABRIC,OS,258.0,-0.0185042819686485,log hazard ratio per predictor SD,-0.18949790697592903,0.152489343038632,0.8320291184594816,0.8612362075627042,does_not_support,Gene-weighted CNA proxy is not HRD scar
+HORMAD1,METABRIC,RFS,258.0,-0.12526269187734707,log hazard ratio per predictor SD,-0.3240617831929232,0.07353639943822912,0.21684269748954843,0.6083297535174481,does_not_support,Gene-weighted CNA proxy is not HRD scar
+HORMAD1,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+HORMAD1,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+HORMAD1,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+HORMAD1,single_cell,malignant_vs_nonmalignant_combined,8.0,1.6954533996443382,paired mean difference in log2(CPM+1),0.604521374358565,2.967877321452582,0.03125,0.087890625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+HORMAD1,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+HORMAD1,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+HORMAD2,TCGA_HRD,HRD_total,103.0,1.6242609360338516,linear regression coefficient per predictor unit,-2.558851133642418,5.807373005710121,0.442941814097597,0.442941814097597,does_not_support,Frozen TCGA discovery; not external replication
+HORMAD2,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+HORMAD2,METABRIC,altered_gene_fraction,258.0,-0.003862035924467915,linear regression coefficient per predictor unit,-0.032740288374623686,0.02501621652568785,0.7924841694891637,0.8915446906753092,does_not_support,Gene-weighted CNA proxy is not HRD scar
+HORMAD2,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+HORMAD2,METABRIC,OS,258.0,0.01496777449973124,log hazard ratio per predictor SD,-0.15285931307078154,0.18279486207024404,0.8612362075627042,0.8612362075627042,does_not_support,Gene-weighted CNA proxy is not HRD scar
+HORMAD2,METABRIC,RFS,258.0,0.00815743368202263,log hazard ratio per predictor SD,-0.17951543007934456,0.1958302974433898,0.9321085403699707,0.9321085403699707,does_not_support,Gene-weighted CNA proxy is not HRD scar
+HORMAD2,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+HORMAD2,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+HORMAD2,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+HORMAD2,single_cell,malignant_vs_nonmalignant_combined,8.0,0.012555381249973973,paired mean difference in log2(CPM+1),0.0,0.035839467875676274,0.5,0.625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+HORMAD2,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+HORMAD2,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+STAG3,TCGA_HRD,HRD_total,103.0,2.534584373639293,linear regression coefficient per predictor unit,-1.6555580480621708,6.724726795340757,0.2329684685358428,0.2620895271028232,does_not_support,Frozen TCGA discovery; not external replication
+STAG3,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+STAG3,METABRIC,altered_gene_fraction,258.0,0.01647420714733726,linear regression coefficient per predictor unit,-0.012336695134303709,0.04528510942897823,0.26120311655749395,0.4701656098034891,does_not_support,Gene-weighted CNA proxy is not HRD scar
+STAG3,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+STAG3,METABRIC,OS,258.0,-0.07642558882073877,log hazard ratio per predictor SD,-0.25286641363550366,0.10001523599402615,0.3959029228934795,0.5090180437201879,does_not_support,Gene-weighted CNA proxy is not HRD scar
+STAG3,METABRIC,RFS,258.0,-0.21040765929394575,log hazard ratio per predictor SD,-0.41345685562322043,-0.0073584629646710475,0.042255735729882074,0.38030162156893865,does_not_support,Gene-weighted CNA proxy is not HRD scar
+STAG3,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+STAG3,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+STAG3,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+STAG3,single_cell,malignant_vs_nonmalignant_combined,8.0,-1.32001381944281,paired mean difference in log2(CPM+1),-1.9202008474038001,-0.6731378040919116,0.015625,0.0703125,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+STAG3,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+STAG3,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+REC8,TCGA_HRD,HRD_total,103.0,3.0173025285649144,linear regression coefficient per predictor unit,-1.520198688756512,7.554803745886341,0.1901112661623739,0.2444287707801951,does_not_support,Frozen TCGA discovery; not external replication
+REC8,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+REC8,METABRIC,altered_gene_fraction,258.0,-0.001223732434744225,linear regression coefficient per predictor unit,-0.030105503941425447,0.027658039071936997,0.9335677359551926,0.9335677359551925,does_not_support,Gene-weighted CNA proxy is not HRD scar
+REC8,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+REC8,METABRIC,OS,258.0,-0.1373358358340121,log hazard ratio per predictor SD,-0.312563712673731,0.03789204100570681,0.12450580913071028,0.4901850100539865,does_not_support,Gene-weighted CNA proxy is not HRD scar
+REC8,METABRIC,RFS,258.0,-0.1678361129182225,log hazard ratio per predictor SD,-0.36857102524188634,0.032898799405441354,0.10126699788074031,0.4557014904633314,does_not_support,Gene-weighted CNA proxy is not HRD scar
+REC8,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+REC8,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+REC8,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+REC8,single_cell,malignant_vs_nonmalignant_combined,8.0,-1.9261485665651978,paired mean difference in log2(CPM+1),-2.494974262123013,-1.4024470898414683,0.0078125,0.0703125,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+REC8,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+REC8,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+SMC1B,TCGA_HRD,HRD_total,103.0,5.803899113281866,linear regression coefficient per predictor unit,1.546149757628723,10.061648468935008,0.0080383029681695,0.0361723633567631,supports,Frozen TCGA discovery; not external replication
+SMC1B,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SMC1B,METABRIC,altered_gene_fraction,258.0,0.05583442295724354,linear regression coefficient per predictor unit,0.027781723716883845,0.08388712219760325,0.00011394136507737126,0.0010254722856963413,supports,Gene-weighted CNA proxy is not HRD scar
+SMC1B,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SMC1B,METABRIC,OS,258.0,0.11768708800280799,log hazard ratio per predictor SD,-0.04788706292251678,0.28326123892813276,0.16358753661881642,0.4901850100539865,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SMC1B,METABRIC,RFS,258.0,0.10644277081841381,log hazard ratio per predictor SD,-0.08283449736754152,0.29572003900436916,0.27036877934108805,0.6083297535174481,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SMC1B,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SMC1B,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SMC1B,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SMC1B,single_cell,malignant_vs_nonmalignant_combined,8.0,1.207978470760851,paired mean difference in log2(CPM+1),0.3390992794444746,2.1428443521113434,0.078125,0.140625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+SMC1B,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+SMC1B,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+SYCP2,TCGA_HRD,HRD_total,103.0,4.0855572969657645,linear regression coefficient per predictor unit,-0.1408552693713396,8.311969863302869,0.0579844088206249,0.0869766132309374,does_not_support,Frozen TCGA discovery; not external replication
+SYCP2,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP2,METABRIC,altered_gene_fraction,258.0,0.03661290073538001,linear regression coefficient per predictor unit,0.008084447317331857,0.06514135415342817,0.012096088959694098,0.02721620015931172,supports,Gene-weighted CNA proxy is not HRD scar
+SYCP2,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SYCP2,METABRIC,OS,258.0,-0.08666478353396494,log hazard ratio per predictor SD,-0.2547020190267952,0.08137245195886532,0.3120898946090461,0.5090180437201879,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SYCP2,METABRIC,RFS,258.0,-0.054910406543126136,log hazard ratio per predictor SD,-0.24564594566322195,0.13582513257696965,0.5725843921144229,0.7361799327185438,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SYCP2,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SYCP2,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SYCP2,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SYCP2,single_cell,malignant_vs_nonmalignant_combined,8.0,1.5487886799071091,paired mean difference in log2(CPM+1),0.5385046960193739,2.4954266047345426,0.0390625,0.087890625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+SYCP2,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+SYCP2,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+SYCP3,TCGA_HRD,HRD_total,103.0,4.753326450483142,linear regression coefficient per predictor unit,0.5635399784380901,8.943112922528194,0.0265819642790948,0.0478475357023706,supports,Frozen TCGA discovery; not external replication
+SYCP3,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+SYCP3,METABRIC,altered_gene_fraction,258.0,-0.006193074438629708,linear regression coefficient per predictor unit,-0.03506517860506331,0.02267902972780389,0.6730804814967658,0.8653891904958417,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SYCP3,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SYCP3,METABRIC,OS,258.0,0.0789597110464472,log hazard ratio per predictor SD,-0.0871150462620213,0.24503446835491569,0.35140960846068325,0.5090180437201879,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SYCP3,METABRIC,RFS,258.0,0.02511528623048175,log hazard ratio per predictor SD,-0.16449983325697298,0.2147304057179365,0.7951683839810658,0.8945644319786991,does_not_support,Gene-weighted CNA proxy is not HRD scar
+SYCP3,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+SYCP3,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SYCP3,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+SYCP3,single_cell,malignant_vs_nonmalignant_combined,8.0,-0.21935098568401729,paired mean difference in log2(CPM+1),-0.4959615963791328,0.047611199290229646,0.296875,0.4453125,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+SYCP3,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+SYCP3,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+MSH4,TCGA_HRD,HRD_total,103.0,5.473456553344552,linear regression coefficient per predictor unit,1.2090829833563372,9.737830123332769,0.0124011419857447,0.0372034259572343,supports,Frozen TCGA discovery; not external replication
+MSH4,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH4,METABRIC,altered_gene_fraction,258.0,-0.007099969339554052,linear regression coefficient per predictor unit,-0.035968910725640735,0.021768972046532633,0.6285733979374042,0.8653891904958417,does_not_support,Gene-weighted CNA proxy is not HRD scar
+MSH4,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+MSH4,METABRIC,OS,258.0,-0.11631405689518559,log hazard ratio per predictor SD,-0.30131993188218265,0.06869181809181146,0.21786000446843845,0.4901850100539865,does_not_support,Gene-weighted CNA proxy is not HRD scar
+MSH4,METABRIC,RFS,258.0,-0.0747004480306152,log hazard ratio per predictor SD,-0.28870256918258363,0.13930167312135322,0.4938785733443709,0.7361799327185438,does_not_support,Gene-weighted CNA proxy is not HRD scar
+MSH4,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+MSH4,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+MSH4,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+MSH4,single_cell,malignant_vs_nonmalignant_combined,8.0,-0.02727736378447435,paired mean difference in log2(CPM+1),-0.07799859879313037,0.018053361197331124,0.625,0.625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+MSH4,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+MSH4,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested
+MSH5,TCGA_HRD,HRD_total,103.0,5.145265743065035,linear regression coefficient per predictor unit,0.9203158621685334,9.370215623961537,0.0174950397404512,0.0393638394160153,supports,Frozen TCGA discovery; not external replication
+MSH5,TCGA_CIN,HRD_LOH,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,LST,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,TAI,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,aneuploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,FGA,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,LOH_fraction,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,ploidy,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,TCGA_CIN,WGD,,,linear regression coefficient per predictor unit,,,,,unavailable,Individual-gene CIN tests not run
+MSH5,METABRIC,altered_gene_fraction,258.0,0.04791664422848484,linear regression coefficient per predictor unit,0.019643013935521945,0.07619027452144775,0.0009712045105810073,0.002913613531743022,supports,Gene-weighted CNA proxy is not HRD scar
+MSH5,METABRIC,altered_gene_fraction_adjusted,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+MSH5,METABRIC,OS,258.0,0.16617257238236874,log hazard ratio per predictor SD,0.005273105430943836,0.32707203933379364,0.042949861352830694,0.38654875217547624,does_not_support,Gene-weighted CNA proxy is not HRD scar
+MSH5,METABRIC,RFS,258.0,0.06998782909281893,log hazard ratio per predictor SD,-0.11993250297152834,0.2599081611571662,0.4701289268256157,0.7361799327185438,does_not_support,Gene-weighted CNA proxy is not HRD scar
+MSH5,METABRIC,HRD_scar,,,linear regression coefficient per predictor unit,,,,,unavailable,Gene-weighted CNA proxy is not HRD scar
+MSH5,GSE25066,pCR,,,linear regression coefficient per predictor unit,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+MSH5,GSE25066,DRFS,,,log hazard ratio per predictor SD,,,,,unavailable,GPL96 mapping unavailable; no gene coverage inferred
+MSH5,single_cell,malignant_vs_nonmalignant_combined,8.0,0.1783652521849394,paired mean difference in log2(CPM+1),-0.19576274538747618,0.5809376415390215,0.578125,0.625,does_not_support,Paired donor/sample analysis; RNA specificity is not HRD
+MSH5,DepMap,genome_wide_CRISPR,,,linear regression coefficient per predictor unit,,,,,unavailable,Composite-only DepMap screen; individual candidate genes not tested
+MSH5,drug,compound_wide_response,,,linear regression coefficient per predictor unit,,,,,unavailable,Drug response resources missing; not tested

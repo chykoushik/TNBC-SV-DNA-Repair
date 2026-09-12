@@ -1,0 +1,382 @@
+{
+  "classification": "WEAK",
+  "classification_basis": "no robust external patient support after prespecified controls; DepMap screen negative at FDR<0.05",
+  "metabric": {
+    "clinical_tnbc_n": 258,
+    "rna_n": 258,
+    "candidate_genes_available": [
+      "HORMAD1",
+      "HORMAD2",
+      "STAG3",
+      "REC8",
+      "SMC1B",
+      "SYCP2",
+      "SYCP3",
+      "MSH4",
+      "MSH5"
+    ],
+    "missing_genes": [],
+    "source_reported_three_negative_n": 320,
+    "reported_negative_but_IHC_positive_n": 51,
+    "duplicate_gene_symbols_averaged": 199,
+    "STAG3_source_rows": 2,
+    "signature_parameters": {
+      "mean": {
+        "HORMAD1": 6.531694275964108,
+        "HORMAD2": 5.287525975020004,
+        "STAG3": 6.843654382103396,
+        "REC8": 7.23906984172203,
+        "SMC1B": 5.75403814684696,
+        "SYCP2": 6.072509859597387,
+        "SYCP3": 5.584704563647485,
+        "MSH4": 5.525415131389387,
+        "MSH5": 6.17165608661119
+      },
+      "sd": {
+        "HORMAD1": 1.067334400200635,
+        "HORMAD2": 0.14252547544114674,
+        "STAG3": 0.3553993194025731,
+        "REC8": 0.6462137071378057,
+        "SMC1B": 0.33183680908644386,
+        "SYCP2": 0.5716298154472889,
+        "SYCP3": 0.15852753333798564,
+        "MSH4": 0.24789551810737917,
+        "MSH5": 0.38770408977059495
+      },
+      "genes": [
+        "HORMAD1",
+        "HORMAD2",
+        "STAG3",
+        "REC8",
+        "SMC1B",
+        "SYCP2",
+        "SYCP3",
+        "MSH4",
+        "MSH5"
+      ]
+    },
+    "proliferation_missing": [],
+    "expression_units": "source log2 Illumina HT12-v3 intensity; not logged again",
+    "cna_proxy": "fraction of unique assayed gene calls with absolute CNA>=1; not FGA or HRD",
+    "main_result": {
+      "model": "METABRIC independent CNA proxy",
+      "outcome": "altered_gene_fraction",
+      "predictor": "candidate_mean_z",
+      "N": 258,
+      "status": "estimated",
+      "reason": "",
+      "beta": 0.11654864204074314,
+      "se": 0.03378871477117796,
+      "ci_low": 0.050009408276861525,
+      "ci_high": 0.18308787580462477,
+      "p": 0.0006570021754762334,
+      "r_squared": 0.04441214471547461,
+      "hc3_se": 0.03241810771504594,
+      "hc3_ci_low": 0.05270850896547924,
+      "hc3_ci_high": 0.18038877511600704,
+      "hc3_p": 0.0003888463572243809,
+      "spearman_rho": 0.223306778058725,
+      "spearman_p": 0.0003001413099345125,
+      "pearson_r": 0.2107418912211676,
+      "pearson_p": 0.0006570021754762341,
+      "vif": {
+        "candidate_mean_z": 0.9999999999999998
+      },
+      "coefficient_stability_warning": false,
+      "breusch_pagan_p": 0.6114902728601141,
+      "shapiro_residual_p": 4.291074670238628e-06,
+      "reset_quadratic_p": 0.14007833778415146,
+      "cooks_threshold": 0.015503875968992248,
+      "influential_n": 10,
+      "component": "METABRIC",
+      "endpoint": "altered_gene_fraction",
+      "gene": "composite",
+      "validation_type": "partial genomic replication; not HRD scar",
+      "fdr": 0.0019710065264287
+    }
+  },
+  "metabric_adjusted": {
+    "model": "CNA proxy adjusted for age/proliferation",
+    "outcome": "altered_gene_fraction",
+    "predictor": "candidate_mean_z",
+    "N": 258,
+    "status": "estimated",
+    "reason": "",
+    "beta": 0.041968029727289066,
+    "se": 0.031791504397561385,
+    "ci_low": -0.02064049125789362,
+    "ci_high": 0.10457655071247175,
+    "p": 0.18798936415717554,
+    "r_squared": 0.2343836454658894,
+    "hc3_se": 0.030618017051258696,
+    "hc3_ci_low": -0.018329486838974902,
+    "hc3_ci_high": 0.10226554629355303,
+    "hc3_p": 0.17167940257111444,
+    "spearman_rho": 0.223306778058725,
+    "spearman_p": 0.0003001413099345125,
+    "pearson_r": 0.2107418912211676,
+    "pearson_p": 0.0006570021754762341,
+    "vif": {
+      "candidate_mean_z": 1.0963064886851956,
+      "age": 1.0395307221907688,
+      "proliferation": 1.1355252096045862
+    },
+    "coefficient_stability_warning": false,
+    "breusch_pagan_p": 0.9308779996184728,
+    "shapiro_residual_p": 0.004677722186594713,
+    "reset_quadratic_p": 0.08000084325311134,
+    "cooks_threshold": 0.015503875968992248,
+    "influential_n": 14,
+    "component": "METABRIC",
+    "endpoint": "altered_gene_fraction_adjusted",
+    "gene": "composite",
+    "fdr": null,
+    "validation_type": "prespecified sensitivity"
+  },
+  "gse25066": {
+    "clinical_tnbc_n": 178,
+    "pcr_observed_n": 112,
+    "pcr_events": 37,
+    "platform": "GPL96",
+    "genes_available": [
+      "STAG3",
+      "REC8",
+      "SYCP2",
+      "MSH4"
+    ],
+    "genes_missing": [
+      "HORMAD1",
+      "HORMAD2",
+      "SMC1B",
+      "SYCP3",
+      "MSH5"
+    ],
+    "gene_availability_status": "verified GPL96 probe mapping",
+    "annotation_missing": false,
+    "signature_parameters": {
+      "mean": {
+        "STAG3": 7.8433144957247185,
+        "REC8": 8.830373242477528,
+        "SYCP2": 7.284021685314607,
+        "MSH4": 7.174697638516854
+      },
+      "sd": {
+        "STAG3": 0.8686809999291161,
+        "REC8": 0.6060231260484829,
+        "SYCP2": 1.2702633783313995,
+        "MSH4": 0.8856753908741178
+      },
+      "genes": [
+        "STAG3",
+        "REC8",
+        "SYCP2",
+        "MSH4"
+      ]
+    }
+  },
+  "single_cell": {
+    "all_donor_sample_n": 26,
+    "tnbc_donor_sample_n": 10,
+    "minimum_cells": 20,
+    "reference": "TNBC donor-by-disjoint-cell-class pseudobulks",
+    "gene_means": {
+      "HORMAD1": 0.9320683672747573,
+      "HORMAD2": 0.04635751737379791,
+      "STAG3": 1.8602544275127766,
+      "REC8": 2.410666300354442,
+      "SMC1B": 0.5410577322635639,
+      "SYCP2": 2.2531971079508435,
+      "SYCP3": 0.770912337917625,
+      "MSH4": 0.028987658302409826,
+      "MSH5": 0.8356902211193794
+    },
+    "gene_sd": {
+      "HORMAD1": 1.6111070334126543,
+      "HORMAD2": 0.20372051575322137,
+      "STAG3": 1.2625354161567146,
+      "REC8": 1.02084105566735,
+      "SMC1B": 0.946418186105088,
+      "SYCP2": 1.4404417781787273,
+      "SYCP3": 0.7153909028778086,
+      "MSH4": 0.08600141583715178,
+      "MSH5": 0.7343278263359025
+    },
+    "primary_result": {
+      "component": "single_cell",
+      "population": "TNBC",
+      "endpoint": "malignant_vs_nonmalignant_combined",
+      "gene": "composite",
+      "N": 8,
+      "effect": 0.016924906896976427,
+      "ci_low": -0.2723578816974581,
+      "ci_high": 0.2542422561292419,
+      "p": 0.546875,
+      "status": "estimated",
+      "reason": "",
+      "fdr": 0.546875
+    },
+    "library_count_validation": "All 85 donor/class totals equal source nCount_RNA sums exactly",
+    "donor_identity_caveat": "orig.ident is the published donor/sample unit; no suffix stripping or independent cells-as-patients tests"
+  },
+  "depmap": {
+    "status": "estimated",
+    "analysis_cohort": "curated_TNBC",
+    "breast_model_n": 102,
+    "tnbc_model_n": 34,
+    "analysis_model_n": 25,
+    "metadata_fields_used_for_curated_eligibility": [
+      "OncotreeLineage",
+      "OncotreePrimaryDisease",
+      "OncotreeSubtype",
+      "PatientSubtypeFeatures",
+      "ModelSubtypeFeatures",
+      "PublicComments",
+      "TissueOrigin",
+      "CellLineName",
+      "CCLEName"
+    ],
+    "tnbc_definition": "literal TNBC/triple-negative annotation in curated non-expression model metadata only",
+    "expression_receptor_thresholds_used": false,
+    "candidate_genes_available": [
+      "HORMAD1",
+      "HORMAD2",
+      "STAG3",
+      "REC8",
+      "SMC1B",
+      "SYCP2",
+      "SYCP3",
+      "MSH4",
+      "MSH5"
+    ],
+    "candidate_genes_missing": [],
+    "proliferation_genes_available": [
+      "MKI67",
+      "PCNA",
+      "CCNB1",
+      "CCNE1",
+      "MCM2",
+      "MCM4",
+      "MCM6",
+      "TOP2A",
+      "BIRC5",
+      "CDC20",
+      "CDC6"
+    ],
+    "FDR_significant_dependencies": 0,
+    "strongest_dependency": {
+      "gene": "PIERCE1",
+      "beta": -0.1867962579908555,
+      "p": 2.044012209707143e-05,
+      "fdr": 0.36620522749113177,
+      "annotation": ""
+    },
+    "DDR_FDR_significant_dependencies": [],
+    "effect_direction": "negative beta means stronger CRISPR dependency with higher candidate signature",
+    "matched_random_signature_control": "not run in this implementation; genome-wide FDR screen retained as the prespecified functional test"
+  },
+  "drugs": {
+    "status": "unavailable",
+    "reason": "No complete local PRISM or GDSC response/metadata bundle",
+    "FDR_significant_compounds": null
+  },
+  "missing_resources": [
+    {
+      "resource_id": "depmap_probability",
+      "file_id": "51064631",
+      "filename": "CRISPRGeneDependency.csv",
+      "size_bytes": 421115594,
+      "url": "https://ndownloader.figshare.com/files/51064631",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\depmap_probability\\CRISPRGeneDependency.csv",
+      "status": "missing",
+      "role": "optional probability sensitivity"
+    },
+    {
+      "resource_id": "prism_response",
+      "file_id": "20237739",
+      "filename": "secondary-screen-dose-response-curve-parameters.csv",
+      "size_bytes": 264340589,
+      "url": "https://ndownloader.figshare.com/files/20237739",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\prism_response\\secondary-screen-dose-response-curve-parameters.csv",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "prism_treatment",
+      "file_id": "20237760",
+      "filename": "secondary-screen-replicate-treatment-info.csv",
+      "size_bytes": 15690740,
+      "url": "https://ndownloader.figshare.com/files/20237760",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\prism_treatment\\secondary-screen-replicate-treatment-info.csv",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "prism_models",
+      "file_id": "20237769",
+      "filename": "secondary-screen-cell-line-info.csv",
+      "size_bytes": 40979,
+      "url": "https://ndownloader.figshare.com/files/20237769",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\prism_models\\secondary-screen-cell-line-info.csv",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "prism_readme",
+      "file_id": "20238123",
+      "filename": "secondary-screen-readme.txt",
+      "size_bytes": 7647,
+      "url": "https://ndownloader.figshare.com/files/20238123",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\prism_readme\\secondary-screen-readme.txt",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "gdsc_response",
+      "file_id": "GDSC2_fitted_dose_response_24Jul22.csv",
+      "filename": "GDSC2_fitted_dose_response_24Jul22.csv",
+      "size_bytes": 39834719,
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC2_fitted_dose_response_24Jul22.csv",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\gdsc_response\\GDSC2_fitted_dose_response_24Jul22.csv",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "gdsc_models",
+      "file_id": "Cell_Lines_Details.xlsx",
+      "filename": "Cell_Lines_Details.xlsx",
+      "size_bytes": 117316,
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\gdsc_models\\Cell_Lines_Details.xlsx",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    },
+    {
+      "resource_id": "gdsc_compounds",
+      "file_id": "screened_compounds_rel_8.4.csv",
+      "filename": "screened_compounds_rel_8.4.csv",
+      "size_bytes": 46414,
+      "url": "https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/screened_compounds_rel_8.4.csv",
+      "expected_local_path": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2\\data\\external\\gdsc_compounds\\screened_compounds_rel_8.4.csv",
+      "status": "missing",
+      "role": "required within component or alternative drug resource"
+    }
+  ],
+  "direct_METABRIC_HRD": "Not identified locally; exact resource/size unknown; not approximated",
+  "stage1_stage2_source_hashes": {
+    "outputs/v2/cohort/tcga_tnbc_patients.csv": "55823c561ce1fcd21969242ff0c8b9789ba912eaecd1559d4099ae5173cfdd57",
+    "outputs/v2/predictors/candidate_signature.csv": "98a672d3614d33badd3166e033dc69a4f798b73d9ada6a6abf7e0545da82740e",
+    "outputs/v2/stage2/primary_hrd_model.csv": "691e5e7918a4acc8a096686f78691737a8637e66e6cd98e0440cd72cc22d25f1",
+    "outputs/v2/stage2/adjusted_models.csv": "6ef204b5576373d9d9602c72423996263b27355e3a95322485fb62a408be7f5e",
+    "outputs/v2/stage2/single_gene_results.csv": "203593d4ad462cd96a216da510c43fbbf88428cd0a42109dc262d5c04a1cfb88",
+    "outputs/v2/stage2/secondary_outcomes.csv": "ca7109ed717b641a5f12758559e70270bf9c1dcaa3833f82b0a2271d9a2d164a"
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8"
+  },
+  "functional_analysis_implementation": "Genome-wide DepMap CRISPR gene-effect screen implemented when local resources are present; drug analysis remains gated until separately implemented",
+  "no_new_downloads": true
+}

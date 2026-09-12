@@ -1,0 +1,2 @@
+patient_id,clinical_sample_id,reason
+TCGA-AR-A0U1,TCGA-AR-A0U1-01,no complete valid matching local STAR file

@@ -1,0 +1,85 @@
+{
+  "status": "PASSED",
+  "checks": [
+    {
+      "check": "all_expected_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_genes_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_table_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "TCGA_N_frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SCANB_N_stage4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_retired_scientific_fields",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "claim_ledger_negative_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative_results_visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "protected_inputs_outputs_unchanged",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "no_manuscript_modified",
+      "passed": true,
+      "detail": "12 manuscript/bibliography files checked; newly created files also checked"
+    },
+    {
+      "check": "manifest_hashes_match",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "all_numbers_have_source_references",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_numbers_equal_evidence",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "evidence_equal_frozen_sources",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "scientific_tests_pass",
+      "passed": true,
+      "detail": "75 passed; 1 infrastructure/acquisition failures"
+    },
+    {
+      "check": "five_vector_and_high_resolution_figures",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

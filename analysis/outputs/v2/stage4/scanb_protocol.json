@@ -1,0 +1,51 @@
+{
+  "primary_endpoints": [
+    "HRDetect_probability",
+    "scarHRD_score"
+  ],
+  "primary_predictor": "candidate_mean_z",
+  "primary_family_adjustment": "Holm, two co-primary endpoints",
+  "random_signatures": 5000,
+  "permutations_per_endpoint": 10000,
+  "bootstrap_per_endpoint": 2000,
+  "seed": 20260909,
+  "proliferation_primary": [
+    "MKI67",
+    "PCNA",
+    "CCNB1",
+    "CCNE1",
+    "MCM2",
+    "MCM4",
+    "MCM6",
+    "TOP2A",
+    "BIRC5",
+    "CDC20",
+    "CDC6"
+  ],
+  "previous_proliferation_sensitivity": [
+    "BIRC5",
+    "CCNB1",
+    "CDC20",
+    "NUF2",
+    "CEP55",
+    "NDC80",
+    "MKI67",
+    "PTTG1",
+    "RRM2",
+    "TYMS",
+    "UBE2C"
+  ],
+  "candidate_genes": [
+    "HORMAD1",
+    "HORMAD2",
+    "STAG3",
+    "REC8",
+    "SMC1B",
+    "SYCP2",
+    "SYCP3",
+    "MSH4",
+    "MSH5"
+  ],
+  "outlier_exclusion_sensitivity": "Cook distance >4/N; primary unchanged",
+  "classification_rule": "STRONG: both positive primary Holm/HC3-Holm<.05, proliferation-HC3<.05, matched-null/permutation<.05 and positive significant LOO/Cook sensitivities; MODERATE: some primary evidence with incomplete robustness; WEAK: no supported primary signal or both specificity controls fail; FAILED: scientific/data block"
+}

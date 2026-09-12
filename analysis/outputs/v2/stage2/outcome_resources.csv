@@ -1,0 +1,5 @@
+resource,filename,status,path
+tcga_hrd,TCGA.HRD_withSampleID.txt,loaded,E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\data\external\tcga_hrd\TCGA.HRD_withSampleID.txt
+tcga_aneuploidy,ABSOLUTE_scores.tsv,loaded,E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\data\external\tcga_aneuploidy\ABSOLUTE_scores.tsv
+tcga_fga,seg_based_scores.tsv,loaded,E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\data\external\tcga_fga\seg_based_scores.tsv
+tcga_absolute,TCGA_mastercalls.abs_tables_JSedit.fixed.txt,loaded,E:\apply\journal publication\TNBC_SV_DNA_Repair\TNBC-SV-DNA-Repair-v2-scaffold\TNBC-SV-DNA-Repair-v2\data\external\tcga_absolute\TCGA_mastercalls.abs_tables_JSedit.fixed.txt

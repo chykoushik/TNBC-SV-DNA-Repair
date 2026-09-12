@@ -1,0 +1,4 @@
+metric,kruskal_H,kruskal_p,mwu_low_vs_high_p
+exhaustion,5.339,0.0693,0.1087
+suppression,1.634,0.4417,0.5696
+cytotoxic,0.516,0.7725,0.5244

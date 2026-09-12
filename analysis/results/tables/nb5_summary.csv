@@ -1,0 +1,12 @@
+,value
+TNBC classification concordance pct,88.4
+Methylation probes found,122
+Methylation genes with data,17
+GIPS4 groups,"{'Low': 46, 'Moderate': 39, 'High': 36}"
+LM22 sig genes available,40
+Significant immune KW p<0.1,12
+METABRIC TNBC samples (Basal+claudin-low),427
+METABRIC OS log-rank p,0.3114
+METABRIC RFS log-rank p,0.7812
+Cross-cohort Spearman r,0.41
+Cross-cohort Spearman p,0.0521

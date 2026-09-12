@@ -1,0 +1,27 @@
+{
+  "frozen_candidate_genes": [
+    "HORMAD1",
+    "HORMAD2",
+    "STAG3",
+    "REC8",
+    "SMC1B",
+    "SYCP2",
+    "SYCP3",
+    "MSH4",
+    "MSH5"
+  ],
+  "metabric_duplicate_gene_rule": "mean all reported symbol rows",
+  "metabric_clinical_rule": "ER IHC negative; no positive reported ER conflict; PR negative; HER2 negative; primary tumors",
+  "metabric_cna_rule": "fraction of unique assayed DNA gene calls with absolute state>=1",
+  "metabric_primary_family": [
+    "CNA proxy",
+    "OS",
+    "RFS"
+  ],
+  "gse_platform": "GPL96 only; no mapping inference",
+  "sc_minimum_cells": 20,
+  "sc_primary": "TNBC paired malignant vs pooled nonmalignant",
+  "sc_tests": "two-sided donor-level Wilcoxon; bootstrap mean paired differences, 2000 resamples",
+  "no_large_downloads": true,
+  "no_gene_weight_optimization": true
+}

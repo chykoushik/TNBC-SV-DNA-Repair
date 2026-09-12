@@ -1,0 +1,22 @@
+{
+  "status": "complete; installed in specified V2 workspace",
+  "created_utc": "2026-09-07T04:21:18.668854+00:00",
+  "v2_root": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair\\TNBC-SV-DNA-Repair-v2-scaffold\\TNBC-SV-DNA-Repair-v2",
+  "frozen_source": "E:\\apply\\journal publication\\TNBC_SV_DNA_Repair",
+  "no_bulk_downloads": true,
+  "recommended_bytes": 6262945554,
+  "optional_known_bytes": 2441100231,
+  "input_sha256": {
+    "outputs/audit/issues_found.md": "63020995b3e1b4dce7a0e03a4c62b04bf1285d77396203bc816ce6ec18bbf850",
+    "outputs/audit/missing_data.md": "c7e6f47fe616c6ae1ea55a57e9bb6dd9f46479c2ac6851a379bbbd3cf3ae570c",
+    "outputs/audit/dataset_summary.csv": "64fef0afcba300b0fcd9d133bfae78c79b61b46d6f8f03c0f581bb42f718cc74",
+    "outputs/audit/data_inventory.csv": "3f1efdd72fb5131c7595753d7f1f5060e8caae6e091e97a742c90e3105a8a320",
+    "docs/AUDIT_AND_REDESIGN.md": "cc024b946b2e2b1b53cbc76337863fd0bf63eddcfcd694952573229d583b9a98",
+    "docs/LOCAL_DATA_AUDIT.md": "a540fd72b1a79a8212676e6f58900b6d45bb8c93841872f2971207265788446d"
+  },
+  "tool_tests": "14 passed; mocked HTTP only",
+  "tests_exit_code": 0,
+  "no_biological_analyses": true,
+  "environment_installed": false,
+  "download_manifest_created": false
+}

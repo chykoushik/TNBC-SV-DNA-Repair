@@ -1,0 +1,21 @@
+{
+  "supplement_n": 235,
+  "uniquely_mapped_n": 225,
+  "unmatched_n": 10,
+  "ambiguous_n": 0,
+  "replicate_rows_excluded": 9,
+  "matching_key": "biological S###### plus exact m/m2/m3/m4 component; k/k2 ignored",
+  "source_processing": [
+    "Base-calling using manufacturer's on-instrument software.",
+    "Demultiplexing was done with Picard versions 1.120 or 1.128. IlluminaBasecallsToFastq parameters used were ADAPTERS_TO_CHECK=INDEXED, ADAPTERS_TO_CHECK=PAIRED_END, INCLUDE_NON_PF_READS=false",
+    "Filtering to remove reads that align (using Bowtie 2 with default parameters except -k 1 --phred33 --local) to ribosomal RNA/DNA (GenBank loci NR_023363.1, NR_003285.2, NR_003286.2, NR_003287.2, X12811.1, U13369.1), phiX174 Illumina control (NC_001422.1), and sequences contained in the UCSC RepeatMasker track (downloaded March 14, 2011).",
+    "Fragment size distribution (mean and width) for the alignment step was estimated for each sample using bowtie2 2.2.3 and 2.2.5. Parameter set during estimation were -fr, -k 1, --phred33, --local, and -u 100000, using human genome assembly GRCh38.",
+    "Gene expression data in FPKM were generated using cufflinks 2.2.1 (default parameters except \u2013GTF, --frag-bias-correct GRCh38.fa, --multi-read-correct, --library-type fr-firststrand, --total-hits-norm, --max-bundle-frags 10000000). The resulting data was was post-processed by collapsing on 30,865 unique gene symbols (sum of FPKM values of each matching transcript), adding to each expression measurement 0.1 FPKM, and performing a log2 transformation.",
+    "Genome_build: Human genome reference GRCh38/hg38.",
+    "PAM50 subtyping was performed using an implementation of the Parker method (Parker et al., J.Clin Oncol 2009). In short, to avoid context dependency when assigning PAM50 subtype by nearest-centroid, a fixed reference was selected to match the original cohort used by Parker et al. with respect to available clinical characteristics. Before subtyping tumors in this study, gene expression of the PAM50 genes for each tumor was centered to the reference set separately using custom R scripts.",
+    "Remaining reads were aligned using TopHat2 2.0.12 or 2.0.13 (default parameters except for --mate-inner-dist\u00a0X (estimated in previous step), --mate-std-dev\u00a0Y (estimated in previous step), --library-type\u00a0fr-firststrand, --no-coverage-search, --max-insertion-length 20, --max-deletion-length 20, --read-gap-length 20, --read-edit-dist 22) to the human genome reference GRCh38 together with 104,133 transcript annotations from the UCSC knownGenes table (downloaded September 22, 2014).",
+    "Single-gene classifiers (SGCs) and multi-gene classifiers (MGCs) were trained for ER, PgR, HER2, Ki67 (SGC and MGC) and NHG (MGC only) on the expression of the single underlying gene (ESR1, PGR, ERBB2 or MKI67) or multiple genes (5000 most varying genes across all samples) of a 405 sample cohort using consensus pathology scores as labels. Classifier training was performed by selecting expression thresholds that maximize prediction concordance to the consensus scores (SGCs) and nearest shrunken centroids using the pamr R package (MGCs). The classifiers were used to predict the biomarker status in a validation cohort of 3273 samples from patients enrolled in the SCAN-B study.",
+    "Supplementary_files_format_and_content: Gene expression in FPKM in CSV format."
+  ],
+  "json_validated_against_soft": true
+}

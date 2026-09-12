@@ -1,0 +1,13 @@
+{
+  "status": "estimated",
+  "seed": 20260907,
+  "iterations": 5000,
+  "pool_n": 16935,
+  "neighbors_per_slot": 200,
+  "observed_beta": 16.00283443097265,
+  "observed_abs_t": 4.130741400959999,
+  "empirical_p": 0.001999600079984003,
+  "percentile": 99.82,
+  "matching_mean_distance": 0.029035066372021554,
+  "matching_max_distance": 0.07301130027292299
+}

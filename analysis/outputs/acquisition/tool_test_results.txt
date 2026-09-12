@@ -1,0 +1,52 @@
+{
+  "mode": "download",
+  "datasets": [
+    "tcga_rna",
+    "tcga_mutations",
+    "tcga_segments",
+    "tcga_hrd",
+    "tcga_aneuploidy",
+    "tcga_fga",
+    "tcga_absolute",
+    "tcga_absolute_segments",
+    "tcga_qc",
+    "depmap_effect",
+    "depmap_model",
+    "depmap_condition",
+    "depmap_profiles",
+    "depmap_default",
+    "depmap_expression",
+    "depmap_readme",
+    "prism_response",
+    "prism_treatment",
+    "prism_models",
+    "prism_readme",
+    "gpl96"
+  ],
+  "files": 4350,
+  "bytes": 6262945554
+}
+
+test_bad_checksum (test_acquisition.AcquisitionTests) ... ok
+test_changed_validator (test_acquisition.AcquisitionTests) ... ok
+test_explicit_overwrite (test_acquisition.AcquisitionTests) ... ok
+test_html (test_acquisition.AcquisitionTests) ... ok
+test_large_gate_before_network (test_acquisition.AcquisitionTests) ... usage: download_public_data.py [-h] [--dataset DATASET] [--recommended]
+                               [--download] [--allow-large] [--resume]
+                               [--overwrite]
+download_public_data.py: error: Selected transfer totals >=1 GB; requires --allow-large. Nothing downloaded.
+ok
+test_never_overwrite (test_acquisition.AcquisitionTests) ... ok
+test_no_manifest (test_acquisition.AcquisitionTests) ... ok
+test_path_escape (test_acquisition.AcquisitionTests) ... ok
+test_resume (test_acquisition.AcquisitionTests) ... ok
+test_resume_ignored_preserves_partial (test_acquisition.AcquisitionTests) ... ok
+test_success_and_tampering (test_acquisition.AcquisitionTests) ... ok
+test_truncated (test_acquisition.AcquisitionTests) ... ok
+test_unknown_size (test_acquisition.AcquisitionTests) ... ok
+test_wrong_range (test_acquisition.AcquisitionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.108s
+
+OK

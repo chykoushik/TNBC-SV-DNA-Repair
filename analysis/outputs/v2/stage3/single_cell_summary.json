@@ -1,0 +1,44 @@
+{
+  "all_donor_sample_n": 26,
+  "tnbc_donor_sample_n": 10,
+  "minimum_cells": 20,
+  "reference": "TNBC donor-by-disjoint-cell-class pseudobulks",
+  "gene_means": {
+    "HORMAD1": 0.9320683672747573,
+    "HORMAD2": 0.04635751737379791,
+    "STAG3": 1.8602544275127766,
+    "REC8": 2.410666300354442,
+    "SMC1B": 0.5410577322635639,
+    "SYCP2": 2.2531971079508435,
+    "SYCP3": 0.770912337917625,
+    "MSH4": 0.028987658302409826,
+    "MSH5": 0.8356902211193794
+  },
+  "gene_sd": {
+    "HORMAD1": 1.6111070334126543,
+    "HORMAD2": 0.20372051575322137,
+    "STAG3": 1.2625354161567146,
+    "REC8": 1.02084105566735,
+    "SMC1B": 0.946418186105088,
+    "SYCP2": 1.4404417781787273,
+    "SYCP3": 0.7153909028778086,
+    "MSH4": 0.08600141583715178,
+    "MSH5": 0.7343278263359025
+  },
+  "primary_result": {
+    "component": "single_cell",
+    "population": "TNBC",
+    "endpoint": "malignant_vs_nonmalignant_combined",
+    "gene": "composite",
+    "N": 8,
+    "effect": 0.016924906896976427,
+    "ci_low": -0.2723578816974581,
+    "ci_high": 0.2542422561292419,
+    "p": 0.546875,
+    "status": "estimated",
+    "reason": "",
+    "fdr": 0.546875
+  },
+  "library_count_validation": "All 85 donor/class totals equal source nCount_RNA sums exactly",
+  "donor_identity_caveat": "orig.ident is the published donor/sample unit; no suffix stripping or independent cells-as-patients tests"
+}
