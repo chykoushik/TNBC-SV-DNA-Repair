@@ -1,0 +1,12 @@
+,value
+TCGA TNBC samples,121.0
+TCGA PFI events,20.0
+TCGA OS events,15.0
+PFI log-rank p (3 groups),0.872
+PFI log-rank p (Low vs High),0.676
+OS log-rank p (3 groups),0.5714
+Cox PFI HR (GIPS),1.278
+Cox PFI p,0.8406
+METABRIC TNBC samples,209.0
+Gene disruption concordance r,0.244
+Gene disruption concordance p,0.2626

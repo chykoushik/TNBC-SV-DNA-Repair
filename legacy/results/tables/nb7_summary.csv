@@ -1,0 +1,9 @@
+,value
+clinical cohort size,112
+OS events,18
+PFI events,18
+GIPS groups,"{'Moderate': 40, 'Low': 38, 'High': 34}"
+gene concordance r,0.614
+gene concordance p,0.4143
+original cohort size,121
+overlap with original,22
